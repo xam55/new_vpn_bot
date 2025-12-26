@@ -1,8 +1,9 @@
+import logging
 from aiogram import Router, F
 from aiogram.types import Message
 from aiogram.filters import CommandStart, Command
 from aiogram.fsm.context import FSMContext
-
+from src.keyboards.admin import get_admin_panel_keyboard
 from src.keyboards import get_main_menu, get_admin_menu
 from src.config import config
 from src.services.dao import UserDAO
@@ -75,3 +76,22 @@ async def show_prices(message: Message):
         "Для покупки нажмите /vpnkey или выберите кнопку в меню."
     )
     await message.answer(prices_text)
+
+
+
+logger = logging.getLogger(__name__)
+
+
+@router.message(F.text == "👑 Админ-панель")
+async def open_admin_panel_from_menu(message: Message, state: FSMContext):
+    if message.from_user.id not in config.bot.admin_ids:
+        await message.answer("❌ У вас нет прав администратора")
+        return
+
+    await state.clear()
+
+    await message.answer(
+        "🛠️ <b>Админ-панель VPN Bot</b>\n\n"
+        "Выберите раздел для управления:",
+        reply_markup=get_admin_panel_keyboard()
+    )

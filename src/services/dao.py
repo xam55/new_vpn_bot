@@ -6,10 +6,16 @@ from datetime import datetime
 from src.models.user import User
 from src.models.vpn_key import VPNKey
 from src.models.payment import Payment
-
+from sqlalchemy import select, func
 
 # ========== USER DAO ==========
 class UserDAO:
+
+    # В class UserDAO добавить метод:
+    @staticmethod
+    async def get_all_users(session: AsyncSession) -> List[User]:
+        result = await session.execute(select(User))
+        return list(result.scalars().all())
     @staticmethod
     async def get_or_create(session: AsyncSession, telegram_id: int, **kwargs) -> User:
         stmt = select(User).where(User.telegram_id == telegram_id)

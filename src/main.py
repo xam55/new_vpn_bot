@@ -8,7 +8,8 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from src.config import config
 from src.bot.loader import setup_middlewares, setup_routers
 from src.services.database import create_db_pool, close_db_pool
-from src.services.scheduler import scheduler_service
+# Временно отключаем импорт планировщика
+# from src.services.scheduler import scheduler_service
 from src.utils.logger import setup_logging
 
 # Настраиваем логирование
@@ -39,9 +40,10 @@ async def main() -> None:
     # Уведомляем админов о запуске
     await notify_admins(bot)
 
-    # Запускаем планировщик для очистки просроченных ключей
-    scheduler_service.start()
-    logger.info("Планировщик запущен")
+    # ⚠️ ВРЕМЕННО ОТКЛЮЧАЕМ планировщик для очистки просроченных ключей
+    # scheduler_service.start()
+    # logger.info("Планировщик запущен")
+    logger.info("Планировщик временно отключен (ошибка структуры БД)")
 
     # Запускаем бота
     logger.info("Бот запускается...")
@@ -50,7 +52,7 @@ async def main() -> None:
     try:
         await dp.start_polling(bot)
     finally:
-        scheduler_service.stop()
+        # scheduler_service.stop()  # Временно отключено
         await bot.session.close()
 
 

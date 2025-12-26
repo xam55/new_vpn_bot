@@ -1,59 +1,49 @@
+# src/states/admin_states.py
 from aiogram.fsm.state import State, StatesGroup
 
-
 class AdminPanelStates(StatesGroup):
-    """Состояния админ-панели"""
+    """Состояния админ-панели — включены все алиасы, которые используются в хендлерах."""
 
-    main_menu = State()  # Главное меню админа
+    # Главное меню админа
+    main_menu = State()
 
-    # Управление подтверждениями
-    confirmations_list = State()  # Список платежей для подтверждения
-    payment_detail = State()  # Детали платежа
-    confirm_payment = State()  # Подтверждение платежа
-    reject_payment = State()  # Отклонение платежа с комментарием
+    # ---- Подтверждения / платежи ----
+    # используемые в разных вариантах кода: confirmations, confirmations_list
+    confirmations = State()
+    confirmations_list = State()
+    payment_detail = State()
+    confirm_payment = State()
+    reject_payment = State()
+    confirmation_view = State()
 
-    # Управление пользователями
-    users_list = State()  # Список пользователей
-    user_detail = State()  # Детали пользователя
-    user_edit = State()  # Редактирование пользователя
-    user_ban = State()  # Блокировка пользователя
-    user_unban = State()  # Разблокировка пользователя
-    make_admin = State()  # Назначение администратором
+    # ---- Пользователи ----
+    users_list = State()
+    user_detail = State()
+    user_edit = State()
+    user_ban = State()
+    user_unban = State()
+    make_admin = State()
 
-    # Управление ключами
-    keys_list = State()  # Список всех ключей
-    key_detail = State()  # Детали ключа
-    key_edit = State()  # Редактирование ключа
-    key_revoke = State()  # Отзыв ключа
-    key_extend = State()  # Продление ключа
+    # ---- Ключи ----
+    keys_list = State()
+    key_detail = State()
+    key_edit = State()
+    key_revoke = State()
+    key_extend = State()
 
-    # Статистика
-    statistics_view = State()  # Просмотр статистики
-    export_data = State()  # Экспорт данных
+    # ---- Статистика и экспорт ----
+    statistics_view = State()
+    export_data = State()
 
-    # Настройки
-    settings_menu = State()  # Меню настроек
-    edit_price = State()  # Изменение цены
-    edit_payment_methods = State()  # Изменение методов оплаты
-    edit_ssh_settings = State()  # Изменение SSH настроек
+    # ---- Настройки ----
+    settings_menu = State()
+    edit_price = State()
+    edit_payment_methods = State()
+    edit_ssh_settings = State()
 
-    # Логи
-    logs_view = State()  # Просмотр логов
-    logs_filter = State()  # Фильтрация логов
+    # ---- Логи ----
+    logs_view = State()
+    logs_filter = State()
 
-
-class AdminBroadcastStates(StatesGroup):
-    """Состояния для рассылки сообщений"""
-
-    start_broadcast = State()  # Начало рассылки
-    enter_broadcast_message = State()  # Ввод сообщения для рассылки
-    select_broadcast_recipients = State()  # Выбор получателей
-    confirm_broadcast = State()  # Подтверждение рассылки
-
-
-class AdminSupportStates(StatesGroup):
-    """Состояния для техподдержки"""
-
-    waiting_user_message = State()  # Ожидание сообщения пользователя
-    answering_user = State()  # Ответ пользователю
-    view_conversation = State()  # Просмотр переписки
+# Дополнительные (если в будущем понадобятся) — можно переиспользовать эти имена
+# (оставлены для совместимости с импорте/экспортом в других модулях)

@@ -6,7 +6,7 @@ from src.handlers.start import start_router
 from src.handlers.admin import admin_router
 from src.handlers.status import status_router
 
-# Импортируем ЕДИНЫЙ роутер из vpn_key
+# Используем единый vpn_key_router из __init__.py папки vpn_key
 from src.handlers.vpn_key import vpn_key_router
 
 
@@ -24,8 +24,8 @@ def setup_routers() -> list:
     ВАЖНО: каждый роутер подключается ТОЛЬКО ОДИН РАЗ
     """
     return [
-        start_router,
-        vpn_key_router,  # Только один роутер вместо отдельных
         admin_router,
+        start_router,
+        vpn_key_router,
         status_router,
     ]

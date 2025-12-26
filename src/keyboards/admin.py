@@ -81,3 +81,23 @@ def get_payment_methods_keyboard() -> InlineKeyboardMarkup:
     )
 
     return builder.as_markup()
+
+
+def get_admin_confirmation_keyboard():
+    builder = InlineKeyboardBuilder()
+
+    builder.row(
+        InlineKeyboardButton(text="✅ Подтвердить", callback_data="admin_confirm"),
+        InlineKeyboardButton(text="❌ Отклонить", callback_data="admin_reject")
+    )
+
+    builder.row(
+        InlineKeyboardButton(text="◀️ Предыдущий", callback_data="admin_prev"),
+        InlineKeyboardButton(text="▶️ Следующий", callback_data="admin_next")
+    )
+
+    builder.row(
+        InlineKeyboardButton(text="⬅️ Назад", callback_data="admin_back")
+    )
+
+    return builder.as_markup()
