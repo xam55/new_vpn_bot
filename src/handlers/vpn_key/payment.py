@@ -1,6 +1,8 @@
 from aiogram import Router, F
-from aiogram.types import Message, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
+from aiogram.types import Message, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, FSInputFile
 from aiogram.fsm.context import FSMContext
+import logging
+import asyncio
 
 from src.states.vpn_states import VPNPurchaseStates
 from src.services import get_session, PaymentDAO, UserDAO
@@ -8,6 +10,7 @@ from src.config import config
 
 payment_router = Router()
 router = payment_router
+logger = logging.getLogger(__name__)
 
 
 @router.message(
@@ -29,34 +32,86 @@ async def process_payment_proof(message: Message, state: FSMContext):
         else message.document.file_id
     )
 
+    logger.info(f"📸 Получен чек оплаты: file_id={file_id}, payment_code={payment_code}")
+
     async for session in get_session():
         payment = await PaymentDAO.get_by_payment_id(session, payment_code)
 
         if not payment:
             await message.answer("❌ Платёж не найден в базе")
+            logger.error(f"❌ Платёж {payment_code} не найден в БД")
             return
 
+        # Обновляем статус платежа
         await PaymentDAO.mark_as_paid(
             session=session,
             payment_id=payment.id,
             proof_photo_id=file_id
         )
 
+        # Получаем администраторов из базы
         admins = await UserDAO.get_admins(session)
 
-        for admin in admins:
-            await message.bot.send_photo(
-                admin.telegram_id,
-                photo=file_id,
-                caption=(
-                    "💰 <b>Новый платёж</b>\n\n"
-                    f"👤 Пользователь: {message.from_user.full_name}\n"
-                    f"🆔 TG ID: {message.from_user.id}\n"
-                    f"💳 Payment ID: <code>{payment.payment_id}</code>\n"
-                    f"💰 Сумма: {payment.amount}₽"
-                ),
-                parse_mode="HTML"
-            )
+        if not admins:
+            # Если нет админов в базе, используем ID из конфига
+            admin_ids = getattr(config.bot, 'admin_ids', [])
+            logger.warning(f"⚠️ Админы не найдены в БД, используем конфиг: {admin_ids}")
+
+            if not admin_ids:
+                logger.error("❌ Нет администраторов для уведомления!")
+                await message.answer(
+                    "✅ <b>Чек получен, но администратор не найден!</b>\n\n"
+                    "Пожалуйста, сообщите администратору вручную.",
+                    parse_mode="HTML"
+                )
+                return
+
+            # Отправляем админам из конфига
+            for admin_id in admin_ids:
+                try:
+                    logger.info(f"📤 Отправка чека админу {admin_id}...")
+                    await message.bot.send_photo(
+                        chat_id=admin_id,
+                        photo=file_id,
+                        caption=(
+                            "💰 <b>НОВЫЙ ПЛАТЁЖ НА ПРОВЕРКУ</b>\n\n"
+                            f"👤 Пользователь: {message.from_user.full_name}\n"
+                            f"🆔 TG ID: {message.from_user.id}\n"
+                            f"📱 Username: @{message.from_user.username}\n"
+                            f"💳 Payment ID: <code>{payment.payment_id}</code>\n"
+                            f"💰 Сумма: {payment.amount}₽\n"
+                            f"📅 Дата: {payment.created_at.strftime('%d.%m.%Y %H:%M') if payment.created_at else 'N/A'}\n\n"
+                            "⚡ <i>Для подтверждения используйте админ-панель</i>"
+                        ),
+                        parse_mode="HTML"
+                    )
+                    logger.info(f"✅ Чек отправлен админу {admin_id}")
+                except Exception as e:
+                    logger.error(f"❌ Ошибка отправки админу {admin_id}: {str(e)}")
+
+        else:
+            # Отправляем админам из базы
+            for admin in admins:
+                try:
+                    logger.info(f"📤 Отправка чека админу {admin.telegram_id} ({admin.username})...")
+                    await message.bot.send_photo(
+                        chat_id=admin.telegram_id,
+                        photo=file_id,
+                        caption=(
+                            "💰 <b>НОВЫЙ ПЛАТЁЖ НА ПРОВЕРКУ</b>\n\n"
+                            f"👤 Пользователь: {message.from_user.full_name}\n"
+                            f"🆔 TG ID: {message.from_user.id}\n"
+                            f"📱 Username: @{message.from_user.username}\n"
+                            f"💳 Payment ID: <code>{payment.payment_id}</code>\n"
+                            f"💰 Сумма: {payment.amount}₽\n"
+                            f"📅 Дата: {payment.created_at.strftime('%d.%m.%Y %H:%M') if payment.created_at else 'N/A'}\n\n"
+                            "⚡ <i>Для подтверждения используйте админ-панель</i>"
+                        ),
+                        parse_mode="HTML"
+                    )
+                    logger.info(f"✅ Чек отправлен админу {admin.telegram_id}")
+                except Exception as e:
+                    logger.error(f"❌ Ошибка отправки админу {admin.telegram_id}: {str(e)}")
 
     await message.answer(
         "✅ <b>Чек получен!</b>\n\n"
@@ -66,6 +121,7 @@ async def process_payment_proof(message: Message, state: FSMContext):
     )
 
     await state.clear()
+    logger.info("✅ Процесс оплаты завершен, состояние очищено")
 
 
 @router.callback_query(F.data.startswith("paid_"))
@@ -112,7 +168,7 @@ async def cancel_payment_process(callback: CallbackQuery, state: FSMContext):
                 await PaymentDAO.cancel_payment(session, payment.id)
 
     except Exception as e:
-        print(f"Ошибка при отмене платежа: {e}")
+        logger.error(f"Ошибка при отмене платежа: {e}")
 
     await state.clear()
     await callback.message.edit_text(
@@ -121,80 +177,11 @@ async def cancel_payment_process(callback: CallbackQuery, state: FSMContext):
     )
     await callback.answer("Оплата отменена")
 
+# Админские обработчики - временно отключим, если нет админской панели
+# @router.callback_query(F.data.startswith("confirm_payment_"))
+# async def admin_confirm_payment(callback: CallbackQuery):
+#     ...
 
-@router.callback_query(F.data.startswith("confirm_payment_"))
-async def admin_confirm_payment(callback: CallbackQuery):
-    """Админ подтверждает платёж"""
-    try:
-        payment_id = int(callback.data.split("_")[2])
-    except (ValueError, IndexError):
-        await callback.answer("❌ Ошибка получения ID платежа", show_alert=True)
-        return
-
-    async for session in get_session():
-        payment = await PaymentDAO.get_by_id(session, payment_id)
-        if not payment:
-            await callback.answer("❌ Платёж не найден", show_alert=True)
-            return
-
-        # ✅ ИСПРАВЛЕНО: передаем admin_id и comment
-        await PaymentDAO.confirm_payment(
-            session,
-            payment_id,
-            admin_id=callback.from_user.id,
-            comment="Платеж подтвержден администратором"
-        )
-
-        # Уведомить пользователя
-        await callback.bot.send_message(
-            payment.user.telegram_id,
-            "✅ <b>Ваш платёж подтверждён!</b>\n\n"
-            "Создаю VPN ключ... ⏳",
-            parse_mode="HTML"
-        )
-
-    await callback.message.edit_text(
-        f"✅ Платёж #{payment_id} подтверждён. Ключ создаётся для пользователя."
-    )
-    await callback.answer("Платёж подтверждён")
-
-
-@router.callback_query(F.data.startswith("reject_payment_"))
-async def admin_reject_payment(callback: CallbackQuery):
-    """Админ отклоняет платёж"""
-    try:
-        payment_id = int(callback.data.split("_")[2])
-    except (ValueError, IndexError):
-        await callback.answer("❌ Ошибка получения ID платежа", show_alert=True)
-        return
-
-    async for session in get_session():
-        payment = await PaymentDAO.get_by_id(session, payment_id)
-        if not payment:
-            await callback.answer("❌ Платёж не найден", show_alert=True)
-            return
-
-        # ✅ ИСПРАВЛЕНО: передаем admin_id и comment
-        await PaymentDAO.reject_payment(
-            session,
-            payment_id,
-            admin_id=callback.from_user.id,
-            comment="Платеж отклонен администратором"
-        )
-
-        # Уведомить пользователя
-        await callback.bot.send_message(
-            payment.user.telegram_id,
-            "❌ <b>Ваш платёж отклонён</b>\n\n"
-            "Возможные причины:\n"
-            "- Неправильный комментарий\n"
-            "- Сумма не совпадает\n"
-            "- Скриншот нечитаем\n\n"
-            "Вы можете попробовать снова: /vpnkey",
-            parse_mode="HTML"
-        )
-
-    await callback.message.edit_text(
-        f"❌ Платёж #{payment_id} отклонён. Пользователь уведомлён."
-    )
-    await callback.answer("Платёж отклонён")
+# @router.callback_query(F.data.startswith("reject_payment_"))
+# async def admin_reject_payment(callback: CallbackQuery):
+#     ...

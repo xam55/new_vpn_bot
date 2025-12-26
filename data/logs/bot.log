@@ -7859,3 +7859,175 @@ WHERE vpn_keys.status = ? AND vpn_keys.expires_at < ?]
 2025-12-26 23:43:59,480 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8399571083)
 2025-12-26 23:43:59,734 - src.services.scheduler - INFO - Планировщик остановлен
 2025-12-26 23:43:59,734 - src.services.scheduler - INFO - Планировщик остановлен
+2025-12-26 23:59:15,128 - __main__ - INFO - База данных создана
+2025-12-26 23:59:23,508 - vpn_bot - INFO - Уведомление отправлено админу 7672667340
+2025-12-26 23:59:23,509 - src.services.scheduler - INFO - Планировщик запущен
+2025-12-26 23:59:23,509 - vpn_bot - INFO - Планировщик запущен
+2025-12-26 23:59:23,510 - vpn_bot - INFO - Бот запускается...
+2025-12-26 23:59:23,511 - src.services.scheduler - INFO - Планировщик запущен
+2025-12-26 23:59:23,536 - src.services.scheduler - ERROR - Ошибка в планировщике очистки: (sqlite3.OperationalError) no such column: vpn_keys.server_public_key
+[SQL: SELECT vpn_keys.id, vpn_keys.key_name, vpn_keys.user_id, vpn_keys.private_key, vpn_keys.public_key, vpn_keys.server_public_key, vpn_keys.server_ip, vpn_keys.server_port, vpn_keys.server_endpoint, vpn_keys.ip_address, vpn_keys.config_data, vpn_keys.days, vpn_keys.created_at, vpn_keys.expires_at, vpn_keys.status, vpn_keys.payment_id 
+FROM vpn_keys 
+WHERE vpn_keys.status = ? AND vpn_keys.expires_at < ?]
+[parameters: ('active', '2025-12-26 23:59:23.512315')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-12-27 00:01:14,292 - aiogram.event - ERROR - Cause exception while process update id=385075323 by bot id=8399571083
+ImportError: cannot import name 'PaymentDAO' from 'src.services.database' (C:\Users\xam\PycharmProjects\vpn_bot_xam\vpn_bot\src\services\database.py)
+Traceback (most recent call last):
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\vpn_bot\src\bot\middlewares\database.py", line 23, in __call__
+    raise e
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\vpn_bot\src\bot\middlewares\database.py", line 18, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\vpn_bot\src\bot\middlewares\throttling.py", line 26, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\vpn_bot\src\handlers\admin\panel.py", line 66, in show_confirmations
+    from src.services.database import PaymentDAO, get_session
+ImportError: cannot import name 'PaymentDAO' from 'src.services.database' (C:\Users\xam\PycharmProjects\vpn_bot_xam\vpn_bot\src\services\database.py)
+2025-12-27 00:03:59,482 - aiogram.event - ERROR - Cause exception while process update id=385075327 by bot id=8399571083
+TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+Traceback (most recent call last):
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\vpn_bot\src\bot\middlewares\database.py", line 23, in __call__
+    raise e
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\vpn_bot\src\bot\middlewares\database.py", line 18, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\vpn_bot\src\bot\middlewares\throttling.py", line 26, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\vpn_bot\src\handlers\admin\panel.py", line 37, in back_to_main_menu
+    await callback.message.edit_text(
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\client\session\base.py", line 259, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xam\PycharmProjects\vpn_bot_xam\.venv\Lib\site-packages\aiogram\client\session\base.py", line 121, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-12-27 00:04:23,807 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-12-27 00:04:23,808 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8399571083)
+2025-12-27 00:04:24,072 - src.services.scheduler - INFO - Планировщик остановлен
+2025-12-27 00:04:24,072 - src.services.scheduler - INFO - Планировщик остановлен
