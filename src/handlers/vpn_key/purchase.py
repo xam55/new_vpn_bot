@@ -14,10 +14,10 @@ from src.utils.validators import validate_days_input
 from src.utils.constants import MIN_KEY_DURATION_DAYS, MAX_KEY_DURATION_DAYS
 
 from src.config import config
-from src.services import get_session, UserDAO
+from src.services import get_session, UserDAO, PaymentDAO
 
 purchase_router = Router()
-router = purchase_router  # Alias паттерн
+router = purchase_router
 
 
 @router.message(Command("vpnkey"))
@@ -33,7 +33,7 @@ async def cmd_vpn_key(message: Message, state: FSMContext):
         user = await UserDAO.get_by_telegram_id(session, message.from_user.id)
         if user and user.is_banned:
             await message.answer(
-                "🚫 <b>Ваш аккаунт заблокирован!</b>\n\n"
+                "⛔️ <b>Ваш аккаунт заблокирован!</b>\n\n"
                 "Вы не можете приобретать VPN ключи.\n"
                 "Для выяснения причин обратитесь к администратору."
             )
@@ -60,7 +60,7 @@ async def process_duration_selection(callback: CallbackQuery, state: FSMContext)
     if data == "duration_custom":
         # Пользователь хочет ввести свой срок
         await callback.message.edit_text(
-            "✏️ <b>Введите количество дней</b>\n\n"
+            "🔢 <b>Введите количество дней</b>\n\n"
             f"От {MIN_KEY_DURATION_DAYS} до {MAX_KEY_DURATION_DAYS} дней.\n\n"
             "<i>Цена рассчитывается как: дни × 10₽</i>",
             reply_markup=get_back_keyboard()
@@ -146,9 +146,11 @@ async def process_custom_duration(message: Message, state: FSMContext):
 @router.callback_query(F.data.startswith("payment_"))
 async def process_payment_selection(callback: CallbackQuery, state: FSMContext):
     """Обработка выбора способа оплаты"""
+
+    # Получаем выбранный метод оплаты
     payment_method = callback.data.split("_")[1]
 
-    # Получаем данные о выбранной длительности
+    # Получаем данные из состояния
     data = await state.get_data()
     days = data.get("days")
 
@@ -157,24 +159,46 @@ async def process_payment_selection(callback: CallbackQuery, state: FSMContext):
         return
 
     # Рассчитываем стоимость
-    amount = days * 10  # 10₽ в день
-
-    # Сохраняем метод оплаты
-    await state.update_data(payment_method=payment_method, amount=amount)
+    amount = days * config.payment.price_per_day
 
     # Генерируем ID платежа
     from datetime import datetime
     import random
-    payment_id = f"PAY-{datetime.now().strftime('%Y%m%d')}-{random.randint(1000, 9999)}"
+    payment_string_id = f"PAY-{datetime.now().strftime('%Y%m%d')}-{random.randint(1000, 9999)}"
 
-    await state.update_data(payment_id=payment_id)
+    # Создаем запись платежа в базе данных
+    async for session in get_session():
+        # Получаем пользователя
+        user = await UserDAO.get_by_telegram_id(session, callback.from_user.id)
+
+        if not user:
+            await callback.answer("❌ Пользователь не найден", show_alert=True)
+            return
+
+        # ✅ ИСПРАВЛЕНО: создаем платеж с правильными параметрами
+        payment = await PaymentDAO.create(
+            session=session,
+            user_id=user.id,
+            payment_id=payment_string_id,
+            amount=amount,
+            method=payment_method,
+            payment_details=f"VPN ключ на {days} дней"
+        )
+
+        # Сохраняем ID платежа в состоянии
+        await state.update_data(
+            payment_method=payment_method,
+            amount=amount,
+            payment_id=payment_string_id,
+            db_payment_id=payment.id
+        )
 
     # Показываем реквизиты для оплаты
     payment_text = (
         "### Реквизиты для оплаты\n\n"
-        f"ID платежа: {payment_id}\n"
+        f"ID платежа: {payment_string_id}\n"
         f"Сумма: {amount}₽\n"
-        "Комментарий: VPN-BOT\n\n"
+        f"Комментарий: VPN-{payment_string_id[-6:]}\n\n"
         "Банк: Тинькофф\n"
         "Номер карты: 5536 9138 1234 5678\n"
         "Получатель: ИВАНОВ ИВАН\n\n"
@@ -187,14 +211,13 @@ async def process_payment_selection(callback: CallbackQuery, state: FSMContext):
     await callback.message.edit_text(
         payment_text,
         reply_markup=InlineKeyboardMarkup(inline_keyboard=[[
-            InlineKeyboardButton(text="✅ Я оплатил", callback_data=f"paid_{payment_id}"),
-            InlineKeyboardButton(text="📸 Отправить скриншот", callback_data=f"photo_{payment_id}")
+            InlineKeyboardButton(text="✅ Я оплатил", callback_data=f"paid_{payment_string_id}"),
+            InlineKeyboardButton(text="📸 Отправить скриншот", callback_data=f"photo_{payment_string_id}")
         ], [
-            InlineKeyboardButton(text="❌ Отменить оплату", callback_data="cancel_payment")
+            InlineKeyboardButton(text="❌ Отменить оплату", callback_data=f"cancel_{payment_string_id}")
         ]])
     )
 
-    # Переходим в состояние ожидания подтверждения оплаты
     await state.set_state(VPNPurchaseStates.waiting_payment_proof)
     await callback.answer()
 

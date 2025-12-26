@@ -98,9 +98,22 @@ async def request_payment_proof(callback: CallbackQuery, state: FSMContext):
     )
 
 
-@router.callback_query(F.data == "cancel_payment")
+@router.callback_query(F.data.startswith("cancel_"))
 async def cancel_payment_process(callback: CallbackQuery, state: FSMContext):
     """Отмена процесса оплаты"""
+    try:
+        payment_string_id = callback.data.split("_", 1)[1]
+
+        async for session in get_session():
+            # Находим платеж
+            payment = await PaymentDAO.get_by_payment_id(session, payment_string_id)
+            if payment:
+                # ✅ ИСПРАВЛЕНО: используем новый метод cancel_payment
+                await PaymentDAO.cancel_payment(session, payment.id)
+
+    except Exception as e:
+        print(f"Ошибка при отмене платежа: {e}")
+
     await state.clear()
     await callback.message.edit_text(
         "❌ <b>Оплата отменена</b>\n\n"
@@ -124,8 +137,13 @@ async def admin_confirm_payment(callback: CallbackQuery):
             await callback.answer("❌ Платёж не найден", show_alert=True)
             return
 
-        # Пометить платёж как подтверждённый
-        await PaymentDAO.confirm_payment(session, payment_id)
+        # ✅ ИСПРАВЛЕНО: передаем admin_id и comment
+        await PaymentDAO.confirm_payment(
+            session,
+            payment_id,
+            admin_id=callback.from_user.id,
+            comment="Платеж подтвержден администратором"
+        )
 
         # Уведомить пользователя
         await callback.bot.send_message(
@@ -156,8 +174,13 @@ async def admin_reject_payment(callback: CallbackQuery):
             await callback.answer("❌ Платёж не найден", show_alert=True)
             return
 
-        # Пометить платёж как отклонённый
-        await PaymentDAO.reject_payment(session, payment_id)
+        # ✅ ИСПРАВЛЕНО: передаем admin_id и comment
+        await PaymentDAO.reject_payment(
+            session,
+            payment_id,
+            admin_id=callback.from_user.id,
+            comment="Платеж отклонен администратором"
+        )
 
         # Уведомить пользователя
         await callback.bot.send_message(

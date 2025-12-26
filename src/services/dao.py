@@ -65,6 +65,19 @@ class VPNKeyDAO:
         await session.refresh(key)
         return key
 
+    @staticmethod
+    async def get_by_id(session: AsyncSession, key_id: int) -> Optional[VPNKey]:
+        result = await session.execute(select(VPNKey).where(VPNKey.id == key_id))
+        return result.scalar_one_or_none()
+
+    @staticmethod
+    async def get_user_keys(session: AsyncSession, user_id: int, active_only: bool = True) -> List[VPNKey]:
+        stmt = select(VPNKey).where(VPNKey.user_id == user_id)
+        if active_only:
+            stmt = stmt.where(VPNKey.status == 'active')
+        result = await session.execute(stmt)
+        return list(result.scalars().all())
+
 
 # ========== PAYMENT DAO ==========
 class PaymentDAO:
@@ -82,7 +95,8 @@ class PaymentDAO:
             payment_id=payment_id,
             amount=amount,
             method=method,
-            payment_details=payment_details
+            payment_details=payment_details,
+            status='pending'  # Статус по умолчанию
         )
         session.add(payment)
         await session.commit()
@@ -90,9 +104,16 @@ class PaymentDAO:
         return payment
 
     @staticmethod
-    async def get_by_payment_id(session: AsyncSession, payment_id: str) -> Optional[Payment]:
+    async def get_by_id(session: AsyncSession, payment_id: int) -> Optional[Payment]:
         result = await session.execute(
-            select(Payment).where(Payment.payment_id == payment_id)
+            select(Payment).where(Payment.id == payment_id)
+        )
+        return result.scalar_one_or_none()
+
+    @staticmethod
+    async def get_by_payment_id(session: AsyncSession, payment_string_id: str) -> Optional[Payment]:
+        result = await session.execute(
+            select(Payment).where(Payment.payment_id == payment_string_id)
         )
         return result.scalar_one_or_none()
 
@@ -120,7 +141,7 @@ class PaymentDAO:
         session: AsyncSession,
         payment_id: int,
         admin_id: int,
-        comment: str
+        comment: str = "Платеж подтвержден"
     ) -> bool:
         stmt = (
             update(Payment)
@@ -128,6 +149,7 @@ class PaymentDAO:
             .values(
                 status="confirmed",
                 confirmed_at=datetime.now(),
+                admin_id=admin_id,
                 admin_comment=comment
             )
         )
@@ -135,20 +157,37 @@ class PaymentDAO:
         await session.commit()
         return result.rowcount > 0
 
-    # 🔥 ВОТ ТУТ БЫЛ БАГ — ТЕПЕРЬ ИСПРАВЛЕНО
     @staticmethod
     async def reject_payment(
         session: AsyncSession,
         payment_id: int,
         admin_id: int,
-        comment: str
+        comment: str = "Платеж отклонен"
     ) -> bool:
         stmt = (
             update(Payment)
             .where(Payment.id == payment_id)
             .values(
                 status="rejected",
+                admin_id=admin_id,
                 admin_comment=comment
+            )
+        )
+        result = await session.execute(stmt)
+        await session.commit()
+        return result.rowcount > 0
+
+    # ✅ НОВЫЙ МЕТОД для отмены платежа пользователем
+    @staticmethod
+    async def cancel_payment(
+        session: AsyncSession,
+        payment_id: int
+    ) -> bool:
+        stmt = (
+            update(Payment)
+            .where(Payment.id == payment_id)
+            .values(
+                status="cancelled"
             )
         )
         result = await session.execute(stmt)
