@@ -1,13 +1,10 @@
 from aiogram import Router
 
+# ЕДИНЫЙ роутер для всей админки
 admin_router = Router()
 
-from .panel import router as panel_router
-from .keys import router as keys_router
-from .users import router as users_router
-
-admin_router.include_router(panel_router)
-admin_router.include_router(keys_router)
-admin_router.include_router(users_router)
-
-__all__ = ["admin_router"]
+# Просто импортируем файлы,
+# они НАВЕШИВАЮТ handlers на admin_router
+from . import panel  # noqa
+from . import keys   # noqa
+from . import users  # noqa

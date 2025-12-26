@@ -144,10 +144,10 @@ class PaymentDAO:
 
     @staticmethod
     async def confirm_payment(
-        session: AsyncSession,
-        payment_id: int,
-        admin_id: int,
-        comment: str = "Платеж подтвержден"
+            session: AsyncSession,
+            payment_id: int,
+            admin_id: int,
+            comment: str = "Платеж подтвержден"
     ) -> bool:
         stmt = (
             update(Payment)
@@ -155,7 +155,6 @@ class PaymentDAO:
             .values(
                 status="confirmed",
                 confirmed_at=datetime.now(),
-                admin_id=admin_id,
                 admin_comment=comment
             )
         )
@@ -165,17 +164,16 @@ class PaymentDAO:
 
     @staticmethod
     async def reject_payment(
-        session: AsyncSession,
-        payment_id: int,
-        admin_id: int,
-        comment: str = "Платеж отклонен"
+            session: AsyncSession,
+            payment_id: int,
+            admin_id: int,
+            comment: str = "Платеж отклонен"
     ) -> bool:
         stmt = (
             update(Payment)
             .where(Payment.id == payment_id)
             .values(
                 status="rejected",
-                admin_id=admin_id,
                 admin_comment=comment
             )
         )
