@@ -11090,3 +11090,1024 @@ RuntimeError: Self-referencing routers is not allowed
 2025-12-27 02:24:29,455 - aiogram.dispatcher - WARNING - Sleep for 4.995889 seconds and try again... (tryings = 984, bot id = 8399571083)
 2025-12-27 02:24:34,581 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
 2025-12-27 02:24:34,581 - aiogram.dispatcher - WARNING - Sleep for 4.877038 seconds and try again... (tryings = 985, bot id = 8399571083)
+2025-12-27 02:24:39,601 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:24:39,601 - aiogram.dispatcher - WARNING - Sleep for 4.985768 seconds and try again... (tryings = 986, bot id = 8399571083)
+2025-12-27 02:24:44,725 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:24:44,725 - aiogram.dispatcher - WARNING - Sleep for 4.856426 seconds and try again... (tryings = 987, bot id = 8399571083)
+2025-12-27 02:24:49,714 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:24:49,715 - aiogram.dispatcher - WARNING - Sleep for 5.112948 seconds and try again... (tryings = 988, bot id = 8399571083)
+2025-12-27 02:24:54,962 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:24:54,962 - aiogram.dispatcher - WARNING - Sleep for 5.042671 seconds and try again... (tryings = 989, bot id = 8399571083)
+2025-12-27 02:25:00,133 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:00,133 - aiogram.dispatcher - WARNING - Sleep for 5.074763 seconds and try again... (tryings = 990, bot id = 8399571083)
+2025-12-27 02:25:05,337 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:05,337 - aiogram.dispatcher - WARNING - Sleep for 4.859201 seconds and try again... (tryings = 991, bot id = 8399571083)
+2025-12-27 02:25:10,326 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:10,326 - aiogram.dispatcher - WARNING - Sleep for 4.960644 seconds and try again... (tryings = 992, bot id = 8399571083)
+2025-12-27 02:25:15,419 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:15,419 - aiogram.dispatcher - WARNING - Sleep for 4.849018 seconds and try again... (tryings = 993, bot id = 8399571083)
+2025-12-27 02:25:20,399 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:20,400 - aiogram.dispatcher - WARNING - Sleep for 5.053028 seconds and try again... (tryings = 994, bot id = 8399571083)
+2025-12-27 02:25:25,585 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:25,585 - aiogram.dispatcher - WARNING - Sleep for 5.141294 seconds and try again... (tryings = 995, bot id = 8399571083)
+2025-12-27 02:25:30,861 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:30,861 - aiogram.dispatcher - WARNING - Sleep for 5.060870 seconds and try again... (tryings = 996, bot id = 8399571083)
+2025-12-27 02:25:36,054 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:36,054 - aiogram.dispatcher - WARNING - Sleep for 5.041282 seconds and try again... (tryings = 997, bot id = 8399571083)
+2025-12-27 02:25:41,338 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:41,338 - aiogram.dispatcher - WARNING - Sleep for 5.085460 seconds and try again... (tryings = 998, bot id = 8399571083)
+2025-12-27 02:25:46,499 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:46,503 - aiogram.dispatcher - WARNING - Sleep for 4.962667 seconds and try again... (tryings = 999, bot id = 8399571083)
+2025-12-27 02:25:51,540 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:51,540 - aiogram.dispatcher - WARNING - Sleep for 4.861320 seconds and try again... (tryings = 1000, bot id = 8399571083)
+2025-12-27 02:25:56,479 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:25:56,479 - aiogram.dispatcher - WARNING - Sleep for 4.835845 seconds and try again... (tryings = 1001, bot id = 8399571083)
+2025-12-27 02:26:01,406 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:01,406 - aiogram.dispatcher - WARNING - Sleep for 5.047045 seconds and try again... (tryings = 1002, bot id = 8399571083)
+2025-12-27 02:26:06,527 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:06,527 - aiogram.dispatcher - WARNING - Sleep for 5.072857 seconds and try again... (tryings = 1003, bot id = 8399571083)
+2025-12-27 02:26:11,668 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:11,668 - aiogram.dispatcher - WARNING - Sleep for 4.983307 seconds and try again... (tryings = 1004, bot id = 8399571083)
+2025-12-27 02:26:16,739 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:16,740 - aiogram.dispatcher - WARNING - Sleep for 5.246278 seconds and try again... (tryings = 1005, bot id = 8399571083)
+2025-12-27 02:26:22,079 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:22,079 - aiogram.dispatcher - WARNING - Sleep for 5.055855 seconds and try again... (tryings = 1006, bot id = 8399571083)
+2025-12-27 02:26:27,217 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:27,217 - aiogram.dispatcher - WARNING - Sleep for 4.953675 seconds and try again... (tryings = 1007, bot id = 8399571083)
+2025-12-27 02:26:32,261 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:32,261 - aiogram.dispatcher - WARNING - Sleep for 4.879644 seconds and try again... (tryings = 1008, bot id = 8399571083)
+2025-12-27 02:26:37,224 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:37,224 - aiogram.dispatcher - WARNING - Sleep for 5.076285 seconds and try again... (tryings = 1009, bot id = 8399571083)
+2025-12-27 02:26:42,385 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:42,385 - aiogram.dispatcher - WARNING - Sleep for 4.965579 seconds and try again... (tryings = 1010, bot id = 8399571083)
+2025-12-27 02:26:47,438 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:47,438 - aiogram.dispatcher - WARNING - Sleep for 4.884049 seconds and try again... (tryings = 1011, bot id = 8399571083)
+2025-12-27 02:26:52,414 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:52,414 - aiogram.dispatcher - WARNING - Sleep for 4.900975 seconds and try again... (tryings = 1012, bot id = 8399571083)
+2025-12-27 02:26:57,404 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:26:57,404 - aiogram.dispatcher - WARNING - Sleep for 5.126483 seconds and try again... (tryings = 1013, bot id = 8399571083)
+2025-12-27 02:27:02,599 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:02,599 - aiogram.dispatcher - WARNING - Sleep for 5.243046 seconds and try again... (tryings = 1014, bot id = 8399571083)
+2025-12-27 02:27:07,925 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:07,926 - aiogram.dispatcher - WARNING - Sleep for 5.043285 seconds and try again... (tryings = 1015, bot id = 8399571083)
+2025-12-27 02:27:13,062 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:13,062 - aiogram.dispatcher - WARNING - Sleep for 5.043687 seconds and try again... (tryings = 1016, bot id = 8399571083)
+2025-12-27 02:27:18,190 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:18,190 - aiogram.dispatcher - WARNING - Sleep for 5.108653 seconds and try again... (tryings = 1017, bot id = 8399571083)
+2025-12-27 02:27:23,393 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:23,393 - aiogram.dispatcher - WARNING - Sleep for 5.013659 seconds and try again... (tryings = 1018, bot id = 8399571083)
+2025-12-27 02:27:28,485 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:28,485 - aiogram.dispatcher - WARNING - Sleep for 5.036143 seconds and try again... (tryings = 1019, bot id = 8399571083)
+2025-12-27 02:27:33,609 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:33,609 - aiogram.dispatcher - WARNING - Sleep for 5.096808 seconds and try again... (tryings = 1020, bot id = 8399571083)
+2025-12-27 02:27:38,794 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:38,794 - aiogram.dispatcher - WARNING - Sleep for 5.036795 seconds and try again... (tryings = 1021, bot id = 8399571083)
+2025-12-27 02:27:43,920 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:43,920 - aiogram.dispatcher - WARNING - Sleep for 5.023580 seconds and try again... (tryings = 1022, bot id = 8399571083)
+2025-12-27 02:27:49,038 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:49,038 - aiogram.dispatcher - WARNING - Sleep for 4.784779 seconds and try again... (tryings = 1023, bot id = 8399571083)
+2025-12-27 02:27:53,911 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:53,911 - aiogram.dispatcher - WARNING - Sleep for 5.108839 seconds and try again... (tryings = 1024, bot id = 8399571083)
+2025-12-27 02:27:59,108 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:27:59,109 - aiogram.dispatcher - WARNING - Sleep for 4.899619 seconds and try again... (tryings = 1025, bot id = 8399571083)
+2025-12-27 02:28:04,096 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:04,096 - aiogram.dispatcher - WARNING - Sleep for 4.813421 seconds and try again... (tryings = 1026, bot id = 8399571083)
+2025-12-27 02:28:08,996 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:08,996 - aiogram.dispatcher - WARNING - Sleep for 4.881456 seconds and try again... (tryings = 1027, bot id = 8399571083)
+2025-12-27 02:28:13,956 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:13,956 - aiogram.dispatcher - WARNING - Sleep for 4.949668 seconds and try again... (tryings = 1028, bot id = 8399571083)
+2025-12-27 02:28:19,009 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:19,009 - aiogram.dispatcher - WARNING - Sleep for 5.067200 seconds and try again... (tryings = 1029, bot id = 8399571083)
+2025-12-27 02:28:24,157 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:24,157 - aiogram.dispatcher - WARNING - Sleep for 5.002823 seconds and try again... (tryings = 1030, bot id = 8399571083)
+2025-12-27 02:28:29,253 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:29,253 - aiogram.dispatcher - WARNING - Sleep for 5.169841 seconds and try again... (tryings = 1031, bot id = 8399571083)
+2025-12-27 02:28:34,513 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:34,513 - aiogram.dispatcher - WARNING - Sleep for 4.980432 seconds and try again... (tryings = 1032, bot id = 8399571083)
+2025-12-27 02:28:39,572 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:39,572 - aiogram.dispatcher - WARNING - Sleep for 4.969231 seconds and try again... (tryings = 1033, bot id = 8399571083)
+2025-12-27 02:28:44,625 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:44,625 - aiogram.dispatcher - WARNING - Sleep for 4.895038 seconds and try again... (tryings = 1034, bot id = 8399571083)
+2025-12-27 02:28:49,611 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:49,611 - aiogram.dispatcher - WARNING - Sleep for 5.023713 seconds and try again... (tryings = 1035, bot id = 8399571083)
+2025-12-27 02:28:54,718 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:54,718 - aiogram.dispatcher - WARNING - Sleep for 5.086150 seconds and try again... (tryings = 1036, bot id = 8399571083)
+2025-12-27 02:28:59,899 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:28:59,899 - aiogram.dispatcher - WARNING - Sleep for 5.017868 seconds and try again... (tryings = 1037, bot id = 8399571083)
+2025-12-27 02:29:04,994 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:29:04,994 - aiogram.dispatcher - WARNING - Sleep for 4.934415 seconds and try again... (tryings = 1038, bot id = 8399571083)
+2025-12-27 02:29:10,013 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:29:10,014 - aiogram.dispatcher - WARNING - Sleep for 4.986423 seconds and try again... (tryings = 1039, bot id = 8399571083)
+2025-12-27 02:29:15,085 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:29:15,085 - aiogram.dispatcher - WARNING - Sleep for 4.877488 seconds and try again... (tryings = 1040, bot id = 8399571083)
+2025-12-27 02:29:20,049 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:29:20,049 - aiogram.dispatcher - WARNING - Sleep for 4.945093 seconds and try again... (tryings = 1041, bot id = 8399571083)
+2025-12-27 02:29:25,087 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:29:25,088 - aiogram.dispatcher - WARNING - Sleep for 4.975366 seconds and try again... (tryings = 1042, bot id = 8399571083)
+2025-12-27 02:29:30,157 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:29:30,157 - aiogram.dispatcher - WARNING - Sleep for 5.059299 seconds and try again... (tryings = 1043, bot id = 8399571083)
+2025-12-27 02:29:35,310 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:29:35,310 - aiogram.dispatcher - WARNING - Sleep for 4.913039 seconds and try again... (tryings = 1044, bot id = 8399571083)
+2025-12-27 02:29:40,304 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:29:40,304 - aiogram.dispatcher - WARNING - Sleep for 5.110656 seconds and try again... (tryings = 1045, bot id = 8399571083)
+2025-12-27 02:29:45,504 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:29:45,504 - aiogram.dispatcher - WARNING - Sleep for 5.155566 seconds and try again... (tryings = 1046, bot id = 8399571083)
+2025-12-27 02:29:50,753 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:29:50,754 - aiogram.dispatcher - WARNING - Sleep for 4.980242 seconds and try again... (tryings = 1047, bot id = 8399571083)
+2025-12-27 02:29:55,824 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:29:55,824 - aiogram.dispatcher - WARNING - Sleep for 5.152128 seconds and try again... (tryings = 1048, bot id = 8399571083)
+2025-12-27 02:30:01,069 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:01,070 - aiogram.dispatcher - WARNING - Sleep for 4.928634 seconds and try again... (tryings = 1049, bot id = 8399571083)
+2025-12-27 02:30:06,079 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:06,079 - aiogram.dispatcher - WARNING - Sleep for 4.872475 seconds and try again... (tryings = 1050, bot id = 8399571083)
+2025-12-27 02:30:11,033 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:11,033 - aiogram.dispatcher - WARNING - Sleep for 5.049429 seconds and try again... (tryings = 1051, bot id = 8399571083)
+2025-12-27 02:30:16,162 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:16,162 - aiogram.dispatcher - WARNING - Sleep for 5.142507 seconds and try again... (tryings = 1052, bot id = 8399571083)
+2025-12-27 02:30:21,387 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:21,387 - aiogram.dispatcher - WARNING - Sleep for 5.020357 seconds and try again... (tryings = 1053, bot id = 8399571083)
+2025-12-27 02:30:26,487 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:26,487 - aiogram.dispatcher - WARNING - Sleep for 4.992525 seconds and try again... (tryings = 1054, bot id = 8399571083)
+2025-12-27 02:30:31,559 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:31,559 - aiogram.dispatcher - WARNING - Sleep for 4.966324 seconds and try again... (tryings = 1055, bot id = 8399571083)
+2025-12-27 02:30:36,610 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:36,611 - aiogram.dispatcher - WARNING - Sleep for 4.871680 seconds and try again... (tryings = 1056, bot id = 8399571083)
+2025-12-27 02:30:41,567 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:41,567 - aiogram.dispatcher - WARNING - Sleep for 5.067729 seconds and try again... (tryings = 1057, bot id = 8399571083)
+2025-12-27 02:30:46,723 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:46,723 - aiogram.dispatcher - WARNING - Sleep for 4.997685 seconds and try again... (tryings = 1058, bot id = 8399571083)
+2025-12-27 02:30:51,807 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:51,807 - aiogram.dispatcher - WARNING - Sleep for 5.195015 seconds and try again... (tryings = 1059, bot id = 8399571083)
+2025-12-27 02:30:57,085 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:30:57,086 - aiogram.dispatcher - WARNING - Sleep for 4.969484 seconds and try again... (tryings = 1060, bot id = 8399571083)
+2025-12-27 02:31:02,143 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:02,144 - aiogram.dispatcher - WARNING - Sleep for 5.186166 seconds and try again... (tryings = 1061, bot id = 8399571083)
+2025-12-27 02:31:09,110 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:09,110 - aiogram.dispatcher - WARNING - Sleep for 4.994550 seconds and try again... (tryings = 1062, bot id = 8399571083)
+2025-12-27 02:31:14,188 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:14,188 - aiogram.dispatcher - WARNING - Sleep for 4.813815 seconds and try again... (tryings = 1063, bot id = 8399571083)
+2025-12-27 02:31:19,082 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:19,082 - aiogram.dispatcher - WARNING - Sleep for 4.829610 seconds and try again... (tryings = 1064, bot id = 8399571083)
+2025-12-27 02:31:24,001 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:24,001 - aiogram.dispatcher - WARNING - Sleep for 4.938458 seconds and try again... (tryings = 1065, bot id = 8399571083)
+2025-12-27 02:31:29,032 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:29,032 - aiogram.dispatcher - WARNING - Sleep for 4.968353 seconds and try again... (tryings = 1066, bot id = 8399571083)
+2025-12-27 02:31:34,088 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:34,088 - aiogram.dispatcher - WARNING - Sleep for 4.769401 seconds and try again... (tryings = 1067, bot id = 8399571083)
+2025-12-27 02:31:38,939 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:38,939 - aiogram.dispatcher - WARNING - Sleep for 4.994797 seconds and try again... (tryings = 1068, bot id = 8399571083)
+2025-12-27 02:31:44,024 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:44,024 - aiogram.dispatcher - WARNING - Sleep for 5.091189 seconds and try again... (tryings = 1069, bot id = 8399571083)
+2025-12-27 02:31:49,206 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:49,206 - aiogram.dispatcher - WARNING - Sleep for 4.765743 seconds and try again... (tryings = 1070, bot id = 8399571083)
+2025-12-27 02:31:54,058 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:54,058 - aiogram.dispatcher - WARNING - Sleep for 4.970989 seconds and try again... (tryings = 1071, bot id = 8399571083)
+2025-12-27 02:31:59,123 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:31:59,123 - aiogram.dispatcher - WARNING - Sleep for 4.977249 seconds and try again... (tryings = 1072, bot id = 8399571083)
+2025-12-27 02:32:04,190 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:04,190 - aiogram.dispatcher - WARNING - Sleep for 4.928214 seconds and try again... (tryings = 1073, bot id = 8399571083)
+2025-12-27 02:32:09,201 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:09,201 - aiogram.dispatcher - WARNING - Sleep for 4.943737 seconds and try again... (tryings = 1074, bot id = 8399571083)
+2025-12-27 02:32:14,246 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:14,246 - aiogram.dispatcher - WARNING - Sleep for 5.034344 seconds and try again... (tryings = 1075, bot id = 8399571083)
+2025-12-27 02:32:19,359 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:19,359 - aiogram.dispatcher - WARNING - Sleep for 5.024424 seconds and try again... (tryings = 1076, bot id = 8399571083)
+2025-12-27 02:32:24,472 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:24,472 - aiogram.dispatcher - WARNING - Sleep for 4.927510 seconds and try again... (tryings = 1077, bot id = 8399571083)
+2025-12-27 02:32:29,494 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:29,494 - aiogram.dispatcher - WARNING - Sleep for 4.834386 seconds and try again... (tryings = 1078, bot id = 8399571083)
+2025-12-27 02:32:34,408 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:34,408 - aiogram.dispatcher - WARNING - Sleep for 4.812923 seconds and try again... (tryings = 1079, bot id = 8399571083)
+2025-12-27 02:32:39,309 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:39,309 - aiogram.dispatcher - WARNING - Sleep for 5.065696 seconds and try again... (tryings = 1080, bot id = 8399571083)
+2025-12-27 02:32:44,451 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:44,451 - aiogram.dispatcher - WARNING - Sleep for 5.036733 seconds and try again... (tryings = 1081, bot id = 8399571083)
+2025-12-27 02:32:49,574 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:49,574 - aiogram.dispatcher - WARNING - Sleep for 4.977076 seconds and try again... (tryings = 1082, bot id = 8399571083)
+2025-12-27 02:32:54,644 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:54,644 - aiogram.dispatcher - WARNING - Sleep for 4.947164 seconds and try again... (tryings = 1083, bot id = 8399571083)
+2025-12-27 02:32:59,683 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:32:59,684 - aiogram.dispatcher - WARNING - Sleep for 5.127921 seconds and try again... (tryings = 1084, bot id = 8399571083)
+2025-12-27 02:33:04,900 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:33:04,900 - aiogram.dispatcher - WARNING - Sleep for 5.189842 seconds and try again... (tryings = 1085, bot id = 8399571083)
+2025-12-27 02:33:10,179 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:33:10,179 - aiogram.dispatcher - WARNING - Sleep for 5.011319 seconds and try again... (tryings = 1086, bot id = 8399571083)
+2025-12-27 02:33:15,278 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:33:15,278 - aiogram.dispatcher - WARNING - Sleep for 5.018011 seconds and try again... (tryings = 1087, bot id = 8399571083)
+2025-12-27 02:33:20,384 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:33:20,384 - aiogram.dispatcher - WARNING - Sleep for 5.182977 seconds and try again... (tryings = 1088, bot id = 8399571083)
+2025-12-27 02:33:25,644 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:33:25,644 - aiogram.dispatcher - WARNING - Sleep for 5.006715 seconds and try again... (tryings = 1089, bot id = 8399571083)
+2025-12-27 02:33:30,743 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:33:30,743 - aiogram.dispatcher - WARNING - Sleep for 5.046643 seconds and try again... (tryings = 1090, bot id = 8399571083)
+2025-12-27 02:33:35,877 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:33:35,878 - aiogram.dispatcher - WARNING - Sleep for 4.923024 seconds and try again... (tryings = 1091, bot id = 8399571083)
+2025-12-27 02:33:40,886 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:33:40,886 - aiogram.dispatcher - WARNING - Sleep for 5.019773 seconds and try again... (tryings = 1092, bot id = 8399571083)
+2025-12-27 02:33:45,981 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:33:45,981 - aiogram.dispatcher - WARNING - Sleep for 4.846281 seconds and try again... (tryings = 1093, bot id = 8399571083)
+2025-12-27 02:33:50,915 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:33:50,915 - aiogram.dispatcher - WARNING - Sleep for 5.144189 seconds and try again... (tryings = 1094, bot id = 8399571083)
+2025-12-27 02:33:56,143 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:33:56,144 - aiogram.dispatcher - WARNING - Sleep for 4.928989 seconds and try again... (tryings = 1095, bot id = 8399571083)
+2025-12-27 02:34:01,162 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:01,162 - aiogram.dispatcher - WARNING - Sleep for 4.790484 seconds and try again... (tryings = 1096, bot id = 8399571083)
+2025-12-27 02:34:06,041 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:06,041 - aiogram.dispatcher - WARNING - Sleep for 5.069243 seconds and try again... (tryings = 1097, bot id = 8399571083)
+2025-12-27 02:34:11,351 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:11,351 - aiogram.dispatcher - WARNING - Sleep for 4.965242 seconds and try again... (tryings = 1098, bot id = 8399571083)
+2025-12-27 02:34:16,407 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:16,408 - aiogram.dispatcher - WARNING - Sleep for 4.928576 seconds and try again... (tryings = 1099, bot id = 8399571083)
+2025-12-27 02:34:21,423 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:21,423 - aiogram.dispatcher - WARNING - Sleep for 5.038989 seconds and try again... (tryings = 1100, bot id = 8399571083)
+2025-12-27 02:34:26,548 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:26,548 - aiogram.dispatcher - WARNING - Sleep for 4.928414 seconds and try again... (tryings = 1101, bot id = 8399571083)
+2025-12-27 02:34:31,569 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:31,569 - aiogram.dispatcher - WARNING - Sleep for 5.012218 seconds and try again... (tryings = 1102, bot id = 8399571083)
+2025-12-27 02:34:36,676 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:36,676 - aiogram.dispatcher - WARNING - Sleep for 4.856299 seconds and try again... (tryings = 1103, bot id = 8399571083)
+2025-12-27 02:34:41,627 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:41,627 - aiogram.dispatcher - WARNING - Sleep for 5.016718 seconds and try again... (tryings = 1104, bot id = 8399571083)
+2025-12-27 02:34:46,724 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:46,724 - aiogram.dispatcher - WARNING - Sleep for 4.940567 seconds and try again... (tryings = 1105, bot id = 8399571083)
+2025-12-27 02:34:51,745 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:51,745 - aiogram.dispatcher - WARNING - Sleep for 5.033101 seconds and try again... (tryings = 1106, bot id = 8399571083)
+2025-12-27 02:34:56,859 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:34:56,859 - aiogram.dispatcher - WARNING - Sleep for 4.830538 seconds and try again... (tryings = 1107, bot id = 8399571083)
+2025-12-27 02:35:01,780 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:01,780 - aiogram.dispatcher - WARNING - Sleep for 4.913398 seconds and try again... (tryings = 1108, bot id = 8399571083)
+2025-12-27 02:35:06,782 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:06,782 - aiogram.dispatcher - WARNING - Sleep for 4.953912 seconds and try again... (tryings = 1109, bot id = 8399571083)
+2025-12-27 02:35:11,819 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:11,819 - aiogram.dispatcher - WARNING - Sleep for 4.921208 seconds and try again... (tryings = 1110, bot id = 8399571083)
+2025-12-27 02:35:16,824 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:16,824 - aiogram.dispatcher - WARNING - Sleep for 4.944354 seconds and try again... (tryings = 1111, bot id = 8399571083)
+2025-12-27 02:35:21,855 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:21,855 - aiogram.dispatcher - WARNING - Sleep for 4.995671 seconds and try again... (tryings = 1112, bot id = 8399571083)
+2025-12-27 02:35:26,933 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:26,933 - aiogram.dispatcher - WARNING - Sleep for 4.947543 seconds and try again... (tryings = 1113, bot id = 8399571083)
+2025-12-27 02:35:31,960 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:31,960 - aiogram.dispatcher - WARNING - Sleep for 4.936547 seconds and try again... (tryings = 1114, bot id = 8399571083)
+2025-12-27 02:35:36,984 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:36,984 - aiogram.dispatcher - WARNING - Sleep for 4.933285 seconds and try again... (tryings = 1115, bot id = 8399571083)
+2025-12-27 02:35:42,007 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:42,007 - aiogram.dispatcher - WARNING - Sleep for 5.071141 seconds and try again... (tryings = 1116, bot id = 8399571083)
+2025-12-27 02:35:47,170 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:47,170 - aiogram.dispatcher - WARNING - Sleep for 4.913436 seconds and try again... (tryings = 1117, bot id = 8399571083)
+2025-12-27 02:35:52,187 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:52,187 - aiogram.dispatcher - WARNING - Sleep for 4.818031 seconds and try again... (tryings = 1118, bot id = 8399571083)
+2025-12-27 02:35:57,099 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:35:57,099 - aiogram.dispatcher - WARNING - Sleep for 4.885615 seconds and try again... (tryings = 1119, bot id = 8399571083)
+2025-12-27 02:36:02,070 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:02,070 - aiogram.dispatcher - WARNING - Sleep for 4.953769 seconds and try again... (tryings = 1120, bot id = 8399571083)
+2025-12-27 02:36:07,103 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:07,104 - aiogram.dispatcher - WARNING - Sleep for 5.163053 seconds and try again... (tryings = 1121, bot id = 8399571083)
+2025-12-27 02:36:12,361 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:12,361 - aiogram.dispatcher - WARNING - Sleep for 5.184145 seconds and try again... (tryings = 1122, bot id = 8399571083)
+2025-12-27 02:36:17,636 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:17,637 - aiogram.dispatcher - WARNING - Sleep for 4.931939 seconds and try again... (tryings = 1123, bot id = 8399571083)
+2025-12-27 02:36:22,647 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:22,647 - aiogram.dispatcher - WARNING - Sleep for 4.940911 seconds and try again... (tryings = 1124, bot id = 8399571083)
+2025-12-27 02:36:27,671 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:27,672 - aiogram.dispatcher - WARNING - Sleep for 5.037929 seconds and try again... (tryings = 1125, bot id = 8399571083)
+2025-12-27 02:36:32,799 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:32,800 - aiogram.dispatcher - WARNING - Sleep for 4.899135 seconds and try again... (tryings = 1126, bot id = 8399571083)
+2025-12-27 02:36:37,788 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:37,788 - aiogram.dispatcher - WARNING - Sleep for 5.053102 seconds and try again... (tryings = 1127, bot id = 8399571083)
+2025-12-27 02:36:42,934 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:42,934 - aiogram.dispatcher - WARNING - Sleep for 4.970949 seconds and try again... (tryings = 1128, bot id = 8399571083)
+2025-12-27 02:36:47,993 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:47,994 - aiogram.dispatcher - WARNING - Sleep for 4.869691 seconds and try again... (tryings = 1129, bot id = 8399571083)
+2025-12-27 02:36:52,932 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:52,932 - aiogram.dispatcher - WARNING - Sleep for 5.167044 seconds and try again... (tryings = 1130, bot id = 8399571083)
+2025-12-27 02:36:58,185 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:36:58,185 - aiogram.dispatcher - WARNING - Sleep for 5.123331 seconds and try again... (tryings = 1131, bot id = 8399571083)
+2025-12-27 02:37:03,391 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:03,391 - aiogram.dispatcher - WARNING - Sleep for 4.932126 seconds and try again... (tryings = 1132, bot id = 8399571083)
+2025-12-27 02:37:08,414 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:08,415 - aiogram.dispatcher - WARNING - Sleep for 4.900295 seconds and try again... (tryings = 1133, bot id = 8399571083)
+2025-12-27 02:37:13,405 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:13,405 - aiogram.dispatcher - WARNING - Sleep for 4.977454 seconds and try again... (tryings = 1134, bot id = 8399571083)
+2025-12-27 02:37:18,471 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:18,471 - aiogram.dispatcher - WARNING - Sleep for 4.936333 seconds and try again... (tryings = 1135, bot id = 8399571083)
+2025-12-27 02:37:23,505 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:23,505 - aiogram.dispatcher - WARNING - Sleep for 4.997211 seconds and try again... (tryings = 1136, bot id = 8399571083)
+2025-12-27 02:37:28,584 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:28,584 - aiogram.dispatcher - WARNING - Sleep for 5.070582 seconds and try again... (tryings = 1137, bot id = 8399571083)
+2025-12-27 02:37:33,736 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:33,736 - aiogram.dispatcher - WARNING - Sleep for 5.031833 seconds and try again... (tryings = 1138, bot id = 8399571083)
+2025-12-27 02:37:38,861 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:38,861 - aiogram.dispatcher - WARNING - Sleep for 4.990394 seconds and try again... (tryings = 1139, bot id = 8399571083)
+2025-12-27 02:37:43,945 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:43,945 - aiogram.dispatcher - WARNING - Sleep for 5.004060 seconds and try again... (tryings = 1140, bot id = 8399571083)
+2025-12-27 02:37:49,037 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:49,037 - aiogram.dispatcher - WARNING - Sleep for 4.687651 seconds and try again... (tryings = 1141, bot id = 8399571083)
+2025-12-27 02:37:53,814 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:53,814 - aiogram.dispatcher - WARNING - Sleep for 4.909810 seconds and try again... (tryings = 1142, bot id = 8399571083)
+2025-12-27 02:37:58,804 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:37:58,804 - aiogram.dispatcher - WARNING - Sleep for 5.138346 seconds and try again... (tryings = 1143, bot id = 8399571083)
+2025-12-27 02:38:04,030 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:38:04,030 - aiogram.dispatcher - WARNING - Sleep for 5.172379 seconds and try again... (tryings = 1144, bot id = 8399571083)
+2025-12-27 02:38:09,295 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:38:09,295 - aiogram.dispatcher - WARNING - Sleep for 4.912035 seconds and try again... (tryings = 1145, bot id = 8399571083)
+2025-12-27 02:38:14,300 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:38:14,300 - aiogram.dispatcher - WARNING - Sleep for 5.120896 seconds and try again... (tryings = 1146, bot id = 8399571083)
+2025-12-27 02:38:19,515 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:38:19,515 - aiogram.dispatcher - WARNING - Sleep for 4.971696 seconds and try again... (tryings = 1147, bot id = 8399571083)
+2025-12-27 02:38:24,594 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:38:24,594 - aiogram.dispatcher - WARNING - Sleep for 4.913969 seconds and try again... (tryings = 1148, bot id = 8399571083)
+2025-12-27 02:38:29,604 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:38:29,604 - aiogram.dispatcher - WARNING - Sleep for 5.027168 seconds and try again... (tryings = 1149, bot id = 8399571083)
+2025-12-27 02:38:34,716 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:38:34,716 - aiogram.dispatcher - WARNING - Sleep for 5.059963 seconds and try again... (tryings = 1150, bot id = 8399571083)
+2025-12-27 02:38:39,845 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:38:39,845 - aiogram.dispatcher - WARNING - Sleep for 4.999272 seconds and try again... (tryings = 1151, bot id = 8399571083)
+2025-12-27 02:38:44,931 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:38:44,932 - aiogram.dispatcher - WARNING - Sleep for 4.931930 seconds and try again... (tryings = 1152, bot id = 8399571083)
+2025-12-27 02:38:49,943 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:38:49,943 - aiogram.dispatcher - WARNING - Sleep for 4.986519 seconds and try again... (tryings = 1153, bot id = 8399571083)
+2025-12-27 02:38:55,017 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:38:55,017 - aiogram.dispatcher - WARNING - Sleep for 5.024844 seconds and try again... (tryings = 1154, bot id = 8399571083)
+2025-12-27 02:39:00,133 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:00,134 - aiogram.dispatcher - WARNING - Sleep for 4.979873 seconds and try again... (tryings = 1155, bot id = 8399571083)
+2025-12-27 02:39:05,199 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:05,200 - aiogram.dispatcher - WARNING - Sleep for 5.153782 seconds and try again... (tryings = 1156, bot id = 8399571083)
+2025-12-27 02:39:10,434 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:10,434 - aiogram.dispatcher - WARNING - Sleep for 4.998233 seconds and try again... (tryings = 1157, bot id = 8399571083)
+2025-12-27 02:39:15,521 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:15,521 - aiogram.dispatcher - WARNING - Sleep for 4.953670 seconds and try again... (tryings = 1158, bot id = 8399571083)
+2025-12-27 02:39:20,562 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:20,562 - aiogram.dispatcher - WARNING - Sleep for 4.929443 seconds and try again... (tryings = 1159, bot id = 8399571083)
+2025-12-27 02:39:25,586 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:25,586 - aiogram.dispatcher - WARNING - Sleep for 4.842713 seconds and try again... (tryings = 1160, bot id = 8399571083)
+2025-12-27 02:39:30,518 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:30,518 - aiogram.dispatcher - WARNING - Sleep for 5.015702 seconds and try again... (tryings = 1161, bot id = 8399571083)
+2025-12-27 02:39:35,621 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:35,621 - aiogram.dispatcher - WARNING - Sleep for 4.983548 seconds and try again... (tryings = 1162, bot id = 8399571083)
+2025-12-27 02:39:40,692 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:40,693 - aiogram.dispatcher - WARNING - Sleep for 4.894766 seconds and try again... (tryings = 1163, bot id = 8399571083)
+2025-12-27 02:39:45,670 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:45,670 - aiogram.dispatcher - WARNING - Sleep for 4.955629 seconds and try again... (tryings = 1164, bot id = 8399571083)
+2025-12-27 02:39:50,708 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:50,708 - aiogram.dispatcher - WARNING - Sleep for 4.968618 seconds and try again... (tryings = 1165, bot id = 8399571083)
+2025-12-27 02:39:55,771 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:39:55,771 - aiogram.dispatcher - WARNING - Sleep for 4.988933 seconds and try again... (tryings = 1166, bot id = 8399571083)
+2025-12-27 02:40:00,839 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:00,840 - aiogram.dispatcher - WARNING - Sleep for 5.033329 seconds and try again... (tryings = 1167, bot id = 8399571083)
+2025-12-27 02:40:05,959 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:05,959 - aiogram.dispatcher - WARNING - Sleep for 4.974930 seconds and try again... (tryings = 1168, bot id = 8399571083)
+2025-12-27 02:40:11,012 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:11,012 - aiogram.dispatcher - WARNING - Sleep for 4.980590 seconds and try again... (tryings = 1169, bot id = 8399571083)
+2025-12-27 02:40:16,087 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:16,088 - aiogram.dispatcher - WARNING - Sleep for 4.989504 seconds and try again... (tryings = 1170, bot id = 8399571083)
+2025-12-27 02:40:21,158 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:21,158 - aiogram.dispatcher - WARNING - Sleep for 5.077769 seconds and try again... (tryings = 1171, bot id = 8399571083)
+2025-12-27 02:40:26,315 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:26,315 - aiogram.dispatcher - WARNING - Sleep for 5.090422 seconds and try again... (tryings = 1172, bot id = 8399571083)
+2025-12-27 02:40:31,491 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:31,491 - aiogram.dispatcher - WARNING - Sleep for 5.098980 seconds and try again... (tryings = 1173, bot id = 8399571083)
+2025-12-27 02:40:36,681 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:36,681 - aiogram.dispatcher - WARNING - Sleep for 4.955137 seconds and try again... (tryings = 1174, bot id = 8399571083)
+2025-12-27 02:40:41,724 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:41,724 - aiogram.dispatcher - WARNING - Sleep for 5.048351 seconds and try again... (tryings = 1175, bot id = 8399571083)
+2025-12-27 02:40:46,851 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:46,851 - aiogram.dispatcher - WARNING - Sleep for 5.125492 seconds and try again... (tryings = 1176, bot id = 8399571083)
+2025-12-27 02:40:52,064 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:52,065 - aiogram.dispatcher - WARNING - Sleep for 5.040092 seconds and try again... (tryings = 1177, bot id = 8399571083)
+2025-12-27 02:40:57,198 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:40:57,198 - aiogram.dispatcher - WARNING - Sleep for 5.116917 seconds and try again... (tryings = 1178, bot id = 8399571083)
+2025-12-27 02:41:02,385 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:02,385 - aiogram.dispatcher - WARNING - Sleep for 5.055308 seconds and try again... (tryings = 1179, bot id = 8399571083)
+2025-12-27 02:41:07,534 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:07,534 - aiogram.dispatcher - WARNING - Sleep for 4.771262 seconds and try again... (tryings = 1180, bot id = 8399571083)
+2025-12-27 02:41:12,385 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:12,385 - aiogram.dispatcher - WARNING - Sleep for 4.880067 seconds and try again... (tryings = 1181, bot id = 8399571083)
+2025-12-27 02:41:17,348 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:17,348 - aiogram.dispatcher - WARNING - Sleep for 4.911498 seconds and try again... (tryings = 1182, bot id = 8399571083)
+2025-12-27 02:41:22,347 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:22,348 - aiogram.dispatcher - WARNING - Sleep for 4.970795 seconds and try again... (tryings = 1183, bot id = 8399571083)
+2025-12-27 02:41:27,414 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:27,415 - aiogram.dispatcher - WARNING - Sleep for 5.167154 seconds and try again... (tryings = 1184, bot id = 8399571083)
+2025-12-27 02:41:32,670 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:32,670 - aiogram.dispatcher - WARNING - Sleep for 5.055902 seconds and try again... (tryings = 1185, bot id = 8399571083)
+2025-12-27 02:41:37,816 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:37,816 - aiogram.dispatcher - WARNING - Sleep for 4.946183 seconds and try again... (tryings = 1186, bot id = 8399571083)
+2025-12-27 02:41:42,856 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:42,856 - aiogram.dispatcher - WARNING - Sleep for 5.141569 seconds and try again... (tryings = 1187, bot id = 8399571083)
+2025-12-27 02:41:48,068 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:48,069 - aiogram.dispatcher - WARNING - Sleep for 5.086820 seconds and try again... (tryings = 1188, bot id = 8399571083)
+2025-12-27 02:41:53,238 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:53,239 - aiogram.dispatcher - WARNING - Sleep for 5.039452 seconds and try again... (tryings = 1189, bot id = 8399571083)
+2025-12-27 02:41:58,371 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:41:58,371 - aiogram.dispatcher - WARNING - Sleep for 5.021525 seconds and try again... (tryings = 1190, bot id = 8399571083)
+2025-12-27 02:42:03,471 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:03,471 - aiogram.dispatcher - WARNING - Sleep for 4.876125 seconds and try again... (tryings = 1191, bot id = 8399571083)
+2025-12-27 02:42:08,431 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:08,431 - aiogram.dispatcher - WARNING - Sleep for 5.079953 seconds and try again... (tryings = 1192, bot id = 8399571083)
+2025-12-27 02:42:13,597 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:13,597 - aiogram.dispatcher - WARNING - Sleep for 4.912302 seconds and try again... (tryings = 1193, bot id = 8399571083)
+2025-12-27 02:42:18,602 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:18,602 - aiogram.dispatcher - WARNING - Sleep for 4.956149 seconds and try again... (tryings = 1194, bot id = 8399571083)
+2025-12-27 02:42:23,645 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:23,645 - aiogram.dispatcher - WARNING - Sleep for 4.973149 seconds and try again... (tryings = 1195, bot id = 8399571083)
+2025-12-27 02:42:28,711 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:28,711 - aiogram.dispatcher - WARNING - Sleep for 4.988456 seconds and try again... (tryings = 1196, bot id = 8399571083)
+2025-12-27 02:42:33,783 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:33,783 - aiogram.dispatcher - WARNING - Sleep for 5.176782 seconds and try again... (tryings = 1197, bot id = 8399571083)
+2025-12-27 02:42:39,185 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:39,185 - aiogram.dispatcher - WARNING - Sleep for 4.983365 seconds and try again... (tryings = 1198, bot id = 8399571083)
+2025-12-27 02:42:44,243 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:44,243 - aiogram.dispatcher - WARNING - Sleep for 5.041995 seconds and try again... (tryings = 1199, bot id = 8399571083)
+2025-12-27 02:42:49,358 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:49,358 - aiogram.dispatcher - WARNING - Sleep for 5.073017 seconds and try again... (tryings = 1200, bot id = 8399571083)
+2025-12-27 02:42:54,514 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:54,514 - aiogram.dispatcher - WARNING - Sleep for 4.900421 seconds and try again... (tryings = 1201, bot id = 8399571083)
+2025-12-27 02:42:59,489 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:42:59,489 - aiogram.dispatcher - WARNING - Sleep for 5.035771 seconds and try again... (tryings = 1202, bot id = 8399571083)
+2025-12-27 02:43:04,606 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:43:04,606 - aiogram.dispatcher - WARNING - Sleep for 5.059431 seconds and try again... (tryings = 1203, bot id = 8399571083)
+2025-12-27 02:43:09,754 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:43:09,755 - aiogram.dispatcher - WARNING - Sleep for 4.921385 seconds and try again... (tryings = 1204, bot id = 8399571083)
+2025-12-27 02:43:14,763 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:43:14,763 - aiogram.dispatcher - WARNING - Sleep for 5.032509 seconds and try again... (tryings = 1205, bot id = 8399571083)
+2025-12-27 02:43:19,886 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:43:19,886 - aiogram.dispatcher - WARNING - Sleep for 5.006801 seconds and try again... (tryings = 1206, bot id = 8399571083)
+2025-12-27 02:43:24,972 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:43:24,973 - aiogram.dispatcher - WARNING - Sleep for 4.872811 seconds and try again... (tryings = 1207, bot id = 8399571083)
+2025-12-27 02:43:29,933 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:43:29,933 - aiogram.dispatcher - WARNING - Sleep for 4.968093 seconds and try again... (tryings = 1208, bot id = 8399571083)
+2025-12-27 02:43:34,974 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:43:34,974 - aiogram.dispatcher - WARNING - Sleep for 5.006812 seconds and try again... (tryings = 1209, bot id = 8399571083)
+2025-12-27 02:43:40,074 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:43:40,074 - aiogram.dispatcher - WARNING - Sleep for 4.931256 seconds and try again... (tryings = 1210, bot id = 8399571083)
+2025-12-27 02:43:45,091 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:43:45,091 - aiogram.dispatcher - WARNING - Sleep for 5.043873 seconds and try again... (tryings = 1211, bot id = 8399571083)
+2025-12-27 02:43:50,209 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:43:50,209 - aiogram.dispatcher - WARNING - Sleep for 5.010369 seconds and try again... (tryings = 1212, bot id = 8399571083)
+2025-12-27 02:43:55,295 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:43:55,295 - aiogram.dispatcher - WARNING - Sleep for 5.032367 seconds and try again... (tryings = 1213, bot id = 8399571083)
+2025-12-27 02:44:00,415 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:00,416 - aiogram.dispatcher - WARNING - Sleep for 5.083175 seconds and try again... (tryings = 1214, bot id = 8399571083)
+2025-12-27 02:44:05,575 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:05,576 - aiogram.dispatcher - WARNING - Sleep for 5.074585 seconds and try again... (tryings = 1215, bot id = 8399571083)
+2025-12-27 02:44:10,724 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:10,724 - aiogram.dispatcher - WARNING - Sleep for 4.883970 seconds and try again... (tryings = 1216, bot id = 8399571083)
+2025-12-27 02:44:15,683 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:15,684 - aiogram.dispatcher - WARNING - Sleep for 5.123306 seconds and try again... (tryings = 1217, bot id = 8399571083)
+2025-12-27 02:44:20,888 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:20,888 - aiogram.dispatcher - WARNING - Sleep for 5.136389 seconds and try again... (tryings = 1218, bot id = 8399571083)
+2025-12-27 02:44:26,085 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:26,085 - aiogram.dispatcher - WARNING - Sleep for 4.965252 seconds and try again... (tryings = 1219, bot id = 8399571083)
+2025-12-27 02:44:31,138 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:31,138 - aiogram.dispatcher - WARNING - Sleep for 4.995925 seconds and try again... (tryings = 1220, bot id = 8399571083)
+2025-12-27 02:44:36,219 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:36,219 - aiogram.dispatcher - WARNING - Sleep for 4.963545 seconds and try again... (tryings = 1221, bot id = 8399571083)
+2025-12-27 02:44:41,273 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:41,273 - aiogram.dispatcher - WARNING - Sleep for 4.985780 seconds and try again... (tryings = 1222, bot id = 8399571083)
+2025-12-27 02:44:46,337 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:46,337 - aiogram.dispatcher - WARNING - Sleep for 5.105522 seconds and try again... (tryings = 1223, bot id = 8399571083)
+2025-12-27 02:44:51,518 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:51,518 - aiogram.dispatcher - WARNING - Sleep for 5.027372 seconds and try again... (tryings = 1224, bot id = 8399571083)
+2025-12-27 02:44:56,637 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:44:56,637 - aiogram.dispatcher - WARNING - Sleep for 5.132620 seconds and try again... (tryings = 1225, bot id = 8399571083)
+2025-12-27 02:45:01,850 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:01,851 - aiogram.dispatcher - WARNING - Sleep for 4.972562 seconds and try again... (tryings = 1226, bot id = 8399571083)
+2025-12-27 02:45:06,912 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:06,912 - aiogram.dispatcher - WARNING - Sleep for 4.997185 seconds and try again... (tryings = 1227, bot id = 8399571083)
+2025-12-27 02:45:11,992 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:11,992 - aiogram.dispatcher - WARNING - Sleep for 5.036999 seconds and try again... (tryings = 1228, bot id = 8399571083)
+2025-12-27 02:45:17,117 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:17,117 - aiogram.dispatcher - WARNING - Sleep for 4.927190 seconds and try again... (tryings = 1229, bot id = 8399571083)
+2025-12-27 02:45:22,123 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:22,123 - aiogram.dispatcher - WARNING - Sleep for 5.034100 seconds and try again... (tryings = 1230, bot id = 8399571083)
+2025-12-27 02:45:27,251 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:27,251 - aiogram.dispatcher - WARNING - Sleep for 5.105850 seconds and try again... (tryings = 1231, bot id = 8399571083)
+2025-12-27 02:45:32,442 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:32,442 - aiogram.dispatcher - WARNING - Sleep for 4.994508 seconds and try again... (tryings = 1232, bot id = 8399571083)
+2025-12-27 02:45:37,519 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:37,519 - aiogram.dispatcher - WARNING - Sleep for 5.003788 seconds and try again... (tryings = 1233, bot id = 8399571083)
+2025-12-27 02:45:42,610 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:42,610 - aiogram.dispatcher - WARNING - Sleep for 4.923879 seconds and try again... (tryings = 1234, bot id = 8399571083)
+2025-12-27 02:45:47,615 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:47,615 - aiogram.dispatcher - WARNING - Sleep for 5.111996 seconds and try again... (tryings = 1235, bot id = 8399571083)
+2025-12-27 02:45:52,811 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:52,811 - aiogram.dispatcher - WARNING - Sleep for 4.936416 seconds and try again... (tryings = 1236, bot id = 8399571083)
+2025-12-27 02:45:57,844 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:45:57,844 - aiogram.dispatcher - WARNING - Sleep for 4.937403 seconds and try again... (tryings = 1237, bot id = 8399571083)
+2025-12-27 02:46:02,863 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:02,863 - aiogram.dispatcher - WARNING - Sleep for 4.801655 seconds and try again... (tryings = 1238, bot id = 8399571083)
+2025-12-27 02:46:07,743 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:07,743 - aiogram.dispatcher - WARNING - Sleep for 4.963250 seconds and try again... (tryings = 1239, bot id = 8399571083)
+2025-12-27 02:46:12,778 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:12,778 - aiogram.dispatcher - WARNING - Sleep for 4.886813 seconds and try again... (tryings = 1240, bot id = 8399571083)
+2025-12-27 02:46:17,740 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:17,740 - aiogram.dispatcher - WARNING - Sleep for 5.023400 seconds and try again... (tryings = 1241, bot id = 8399571083)
+2025-12-27 02:46:22,841 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:22,841 - aiogram.dispatcher - WARNING - Sleep for 4.951144 seconds and try again... (tryings = 1242, bot id = 8399571083)
+2025-12-27 02:46:27,866 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:27,866 - aiogram.dispatcher - WARNING - Sleep for 5.133494 seconds and try again... (tryings = 1243, bot id = 8399571083)
+2025-12-27 02:46:33,078 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:33,078 - aiogram.dispatcher - WARNING - Sleep for 4.971572 seconds and try again... (tryings = 1244, bot id = 8399571083)
+2025-12-27 02:46:38,128 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:38,128 - aiogram.dispatcher - WARNING - Sleep for 4.958552 seconds and try again... (tryings = 1245, bot id = 8399571083)
+2025-12-27 02:46:43,170 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:43,170 - aiogram.dispatcher - WARNING - Sleep for 4.898370 seconds and try again... (tryings = 1246, bot id = 8399571083)
+2025-12-27 02:46:48,160 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:48,160 - aiogram.dispatcher - WARNING - Sleep for 4.994876 seconds and try again... (tryings = 1247, bot id = 8399571083)
+2025-12-27 02:46:53,239 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:53,239 - aiogram.dispatcher - WARNING - Sleep for 4.986491 seconds and try again... (tryings = 1248, bot id = 8399571083)
+2025-12-27 02:46:58,312 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:46:58,313 - aiogram.dispatcher - WARNING - Sleep for 4.947947 seconds and try again... (tryings = 1249, bot id = 8399571083)
+2025-12-27 02:47:03,340 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:03,340 - aiogram.dispatcher - WARNING - Sleep for 5.066542 seconds and try again... (tryings = 1250, bot id = 8399571083)
+2025-12-27 02:47:08,489 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:08,489 - aiogram.dispatcher - WARNING - Sleep for 5.108164 seconds and try again... (tryings = 1251, bot id = 8399571083)
+2025-12-27 02:47:13,675 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:13,675 - aiogram.dispatcher - WARNING - Sleep for 5.012231 seconds and try again... (tryings = 1252, bot id = 8399571083)
+2025-12-27 02:47:18,778 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:18,778 - aiogram.dispatcher - WARNING - Sleep for 4.994176 seconds and try again... (tryings = 1253, bot id = 8399571083)
+2025-12-27 02:47:23,859 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:23,860 - aiogram.dispatcher - WARNING - Sleep for 5.106186 seconds and try again... (tryings = 1254, bot id = 8399571083)
+2025-12-27 02:47:29,054 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:29,054 - aiogram.dispatcher - WARNING - Sleep for 4.963773 seconds and try again... (tryings = 1255, bot id = 8399571083)
+2025-12-27 02:47:34,096 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:34,097 - aiogram.dispatcher - WARNING - Sleep for 5.000219 seconds and try again... (tryings = 1256, bot id = 8399571083)
+2025-12-27 02:47:39,181 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:39,181 - aiogram.dispatcher - WARNING - Sleep for 4.955165 seconds and try again... (tryings = 1257, bot id = 8399571083)
+2025-12-27 02:47:44,223 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:44,223 - aiogram.dispatcher - WARNING - Sleep for 5.087004 seconds and try again... (tryings = 1258, bot id = 8399571083)
+2025-12-27 02:47:49,395 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:49,395 - aiogram.dispatcher - WARNING - Sleep for 5.075016 seconds and try again... (tryings = 1259, bot id = 8399571083)
+2025-12-27 02:47:54,561 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:54,561 - aiogram.dispatcher - WARNING - Sleep for 5.081886 seconds and try again... (tryings = 1260, bot id = 8399571083)
+2025-12-27 02:47:59,729 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:47:59,730 - aiogram.dispatcher - WARNING - Sleep for 4.933615 seconds and try again... (tryings = 1261, bot id = 8399571083)
+2025-12-27 02:48:04,752 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:48:04,752 - aiogram.dispatcher - WARNING - Sleep for 5.068692 seconds and try again... (tryings = 1262, bot id = 8399571083)
+2025-12-27 02:48:09,904 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:48:09,904 - aiogram.dispatcher - WARNING - Sleep for 5.047849 seconds and try again... (tryings = 1263, bot id = 8399571083)
+2025-12-27 02:48:15,022 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:48:15,022 - aiogram.dispatcher - WARNING - Sleep for 4.968876 seconds and try again... (tryings = 1264, bot id = 8399571083)
+2025-12-27 02:48:20,074 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:48:20,074 - aiogram.dispatcher - WARNING - Sleep for 4.858367 seconds and try again... (tryings = 1265, bot id = 8399571083)
+2025-12-27 02:48:25,017 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:48:25,017 - aiogram.dispatcher - WARNING - Sleep for 5.062377 seconds and try again... (tryings = 1266, bot id = 8399571083)
+2025-12-27 02:48:30,166 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:48:30,166 - aiogram.dispatcher - WARNING - Sleep for 4.967299 seconds and try again... (tryings = 1267, bot id = 8399571083)
+2025-12-27 02:48:35,219 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:48:35,219 - aiogram.dispatcher - WARNING - Sleep for 4.955179 seconds and try again... (tryings = 1268, bot id = 8399571083)
+2025-12-27 02:48:40,253 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:48:40,253 - aiogram.dispatcher - WARNING - Sleep for 5.026319 seconds and try again... (tryings = 1269, bot id = 8399571083)
+2025-12-27 02:48:45,353 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:48:45,353 - aiogram.dispatcher - WARNING - Sleep for 5.045734 seconds and try again... (tryings = 1270, bot id = 8399571083)
+2025-12-27 02:48:50,476 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:48:50,476 - aiogram.dispatcher - WARNING - Sleep for 5.064801 seconds and try again... (tryings = 1271, bot id = 8399571083)
+2025-12-27 02:48:55,619 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:48:55,620 - aiogram.dispatcher - WARNING - Sleep for 4.959284 seconds and try again... (tryings = 1272, bot id = 8399571083)
+2025-12-27 02:49:00,666 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:00,666 - aiogram.dispatcher - WARNING - Sleep for 4.993130 seconds and try again... (tryings = 1273, bot id = 8399571083)
+2025-12-27 02:49:05,744 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:05,744 - aiogram.dispatcher - WARNING - Sleep for 5.124623 seconds and try again... (tryings = 1274, bot id = 8399571083)
+2025-12-27 02:49:10,952 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:10,953 - aiogram.dispatcher - WARNING - Sleep for 4.906258 seconds and try again... (tryings = 1275, bot id = 8399571083)
+2025-12-27 02:49:15,938 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:15,939 - aiogram.dispatcher - WARNING - Sleep for 5.019339 seconds and try again... (tryings = 1276, bot id = 8399571083)
+2025-12-27 02:49:21,038 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:21,038 - aiogram.dispatcher - WARNING - Sleep for 5.063287 seconds and try again... (tryings = 1277, bot id = 8399571083)
+2025-12-27 02:49:26,179 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:26,179 - aiogram.dispatcher - WARNING - Sleep for 4.868437 seconds and try again... (tryings = 1278, bot id = 8399571083)
+2025-12-27 02:49:31,135 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:31,135 - aiogram.dispatcher - WARNING - Sleep for 5.117945 seconds and try again... (tryings = 1279, bot id = 8399571083)
+2025-12-27 02:49:36,332 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:36,332 - aiogram.dispatcher - WARNING - Sleep for 5.144599 seconds and try again... (tryings = 1280, bot id = 8399571083)
+2025-12-27 02:49:41,559 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:41,560 - aiogram.dispatcher - WARNING - Sleep for 4.896912 seconds and try again... (tryings = 1281, bot id = 8399571083)
+2025-12-27 02:49:46,530 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:46,530 - aiogram.dispatcher - WARNING - Sleep for 5.099363 seconds and try again... (tryings = 1282, bot id = 8399571083)
+2025-12-27 02:49:51,709 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:51,709 - aiogram.dispatcher - WARNING - Sleep for 5.147749 seconds and try again... (tryings = 1283, bot id = 8399571083)
+2025-12-27 02:49:56,933 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2025-12-27 02:49:56,934 - aiogram.dispatcher - WARNING - Sleep for 5.082522 seconds and try again... (tryings = 1284, bot id = 8399571083)
+2025-12-27 02:50:23,708 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2025-12-27 02:50:23,708 - aiogram.dispatcher - WARNING - Sleep for 4.895547 seconds and try again... (tryings = 1285, bot id = 8399571083)
+2025-12-27 02:50:49,667 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows, [WinError 121] Превышен таймаут семафора]
+2025-12-27 02:50:49,667 - aiogram.dispatcher - WARNING - Sleep for 4.960037 seconds and try again... (tryings = 1286, bot id = 8399571083)
+2025-12-27 02:51:15,682 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 121] Превышен таймаут семафора, [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-12-27 02:51:15,682 - aiogram.dispatcher - WARNING - Sleep for 5.128340 seconds and try again... (tryings = 1287, bot id = 8399571083)
+2025-12-27 02:51:41,863 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows, [WinError 121] Превышен таймаут семафора]
+2025-12-27 02:51:41,863 - aiogram.dispatcher - WARNING - Sleep for 5.038555 seconds and try again... (tryings = 1288, bot id = 8399571083)
+2025-12-27 02:52:07,952 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 121] Превышен таймаут семафора, [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-12-27 02:52:07,953 - aiogram.dispatcher - WARNING - Sleep for 4.973757 seconds and try again... (tryings = 1289, bot id = 8399571083)
+2025-12-27 02:52:33,965 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows, [WinError 121] Превышен таймаут семафора]
+2025-12-27 02:52:33,965 - aiogram.dispatcher - WARNING - Sleep for 5.055307 seconds and try again... (tryings = 1290, bot id = 8399571083)
+2025-12-27 02:53:00,086 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 121] Превышен таймаут семафора, [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-12-27 02:53:00,086 - aiogram.dispatcher - WARNING - Sleep for 5.102148 seconds and try again... (tryings = 1291, bot id = 8399571083)
+2025-12-27 02:53:26,237 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows, [WinError 121] Превышен таймаут семафора]
+2025-12-27 02:53:26,237 - aiogram.dispatcher - WARNING - Sleep for 4.941298 seconds and try again... (tryings = 1292, bot id = 8399571083)
+2025-12-27 02:53:52,242 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 121] Превышен таймаут семафора, [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-12-27 02:53:52,242 - aiogram.dispatcher - WARNING - Sleep for 4.855684 seconds and try again... (tryings = 1293, bot id = 8399571083)
+2025-12-27 02:54:18,147 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows, [WinError 121] Превышен таймаут семафора]
+2025-12-27 02:54:18,147 - aiogram.dispatcher - WARNING - Sleep for 5.102685 seconds and try again... (tryings = 1294, bot id = 8399571083)
+2025-12-27 02:54:44,310 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 121] Превышен таймаут семафора, [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-12-27 02:54:44,311 - aiogram.dispatcher - WARNING - Sleep for 4.965971 seconds and try again... (tryings = 1295, bot id = 8399571083)
+2025-12-27 02:55:10,339 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows, [WinError 121] Превышен таймаут семафора]
+2025-12-27 02:55:10,339 - aiogram.dispatcher - WARNING - Sleep for 5.022204 seconds and try again... (tryings = 1296, bot id = 8399571083)
+2025-12-27 02:55:36,416 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 121] Превышен таймаут семафора, [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-12-27 02:55:36,416 - aiogram.dispatcher - WARNING - Sleep for 5.027348 seconds and try again... (tryings = 1297, bot id = 8399571083)
+2025-12-27 02:56:02,499 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Multiple exceptions: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows, [WinError 121] Превышен таймаут семафора]
+2025-12-27 02:56:02,500 - aiogram.dispatcher - WARNING - Sleep for 5.000957 seconds and try again... (tryings = 1298, bot id = 8399571083)
+2025-12-27 02:56:28,561 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 02:56:28,561 - aiogram.dispatcher - WARNING - Sleep for 5.102322 seconds and try again... (tryings = 1299, bot id = 8399571083)
+2025-12-27 02:56:54,723 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 02:56:54,723 - aiogram.dispatcher - WARNING - Sleep for 4.976067 seconds and try again... (tryings = 1300, bot id = 8399571083)
+2025-12-27 02:57:20,745 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 02:57:20,745 - aiogram.dispatcher - WARNING - Sleep for 5.024785 seconds and try again... (tryings = 1301, bot id = 8399571083)
+2025-12-27 02:57:46,813 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 02:57:46,813 - aiogram.dispatcher - WARNING - Sleep for 4.972090 seconds and try again... (tryings = 1302, bot id = 8399571083)
+2025-12-27 02:58:12,816 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 02:58:12,816 - aiogram.dispatcher - WARNING - Sleep for 4.845571 seconds and try again... (tryings = 1303, bot id = 8399571083)
+2025-12-27 02:58:38,714 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 02:58:38,714 - aiogram.dispatcher - WARNING - Sleep for 4.874161 seconds and try again... (tryings = 1304, bot id = 8399571083)
+2025-12-27 02:59:04,644 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 02:59:04,644 - aiogram.dispatcher - WARNING - Sleep for 4.888677 seconds and try again... (tryings = 1305, bot id = 8399571083)
+2025-12-27 02:59:30,570 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 02:59:30,570 - aiogram.dispatcher - WARNING - Sleep for 4.996719 seconds and try again... (tryings = 1306, bot id = 8399571083)
+2025-12-27 02:59:56,617 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 02:59:56,617 - aiogram.dispatcher - WARNING - Sleep for 5.077846 seconds and try again... (tryings = 1307, bot id = 8399571083)
+2025-12-27 03:00:22,751 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:00:22,751 - aiogram.dispatcher - WARNING - Sleep for 5.129564 seconds and try again... (tryings = 1308, bot id = 8399571083)
+2025-12-27 03:00:48,935 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:00:48,935 - aiogram.dispatcher - WARNING - Sleep for 4.979702 seconds and try again... (tryings = 1309, bot id = 8399571083)
+2025-12-27 03:01:14,981 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:01:14,981 - aiogram.dispatcher - WARNING - Sleep for 5.042498 seconds and try again... (tryings = 1310, bot id = 8399571083)
+2025-12-27 03:01:41,069 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:01:41,069 - aiogram.dispatcher - WARNING - Sleep for 5.069367 seconds and try again... (tryings = 1311, bot id = 8399571083)
+2025-12-27 03:02:07,188 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:02:07,189 - aiogram.dispatcher - WARNING - Sleep for 5.063792 seconds and try again... (tryings = 1312, bot id = 8399571083)
+2025-12-27 03:02:33,315 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:02:33,315 - aiogram.dispatcher - WARNING - Sleep for 4.968613 seconds and try again... (tryings = 1313, bot id = 8399571083)
+2025-12-27 03:02:59,332 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:02:59,332 - aiogram.dispatcher - WARNING - Sleep for 5.025637 seconds and try again... (tryings = 1314, bot id = 8399571083)
+2025-12-27 03:03:25,415 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:03:25,415 - aiogram.dispatcher - WARNING - Sleep for 5.040682 seconds and try again... (tryings = 1315, bot id = 8399571083)
+2025-12-27 03:03:51,514 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:03:51,514 - aiogram.dispatcher - WARNING - Sleep for 5.019705 seconds and try again... (tryings = 1316, bot id = 8399571083)
+2025-12-27 03:04:17,585 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:04:17,585 - aiogram.dispatcher - WARNING - Sleep for 5.029563 seconds and try again... (tryings = 1317, bot id = 8399571083)
+2025-12-27 03:04:43,677 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:04:43,677 - aiogram.dispatcher - WARNING - Sleep for 4.977096 seconds and try again... (tryings = 1318, bot id = 8399571083)
+2025-12-27 03:05:09,718 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:05:09,718 - aiogram.dispatcher - WARNING - Sleep for 4.911018 seconds and try again... (tryings = 1319, bot id = 8399571083)
+2025-12-27 03:05:35,672 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:05:35,672 - aiogram.dispatcher - WARNING - Sleep for 4.966864 seconds and try again... (tryings = 1320, bot id = 8399571083)
+2025-12-27 03:06:01,685 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:06:01,685 - aiogram.dispatcher - WARNING - Sleep for 4.967748 seconds and try again... (tryings = 1321, bot id = 8399571083)
+2025-12-27 03:06:27,710 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:06:27,710 - aiogram.dispatcher - WARNING - Sleep for 5.111413 seconds and try again... (tryings = 1322, bot id = 8399571083)
+2025-12-27 03:06:53,887 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:06:53,887 - aiogram.dispatcher - WARNING - Sleep for 4.818340 seconds and try again... (tryings = 1323, bot id = 8399571083)
+2025-12-27 03:07:19,772 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:07:19,772 - aiogram.dispatcher - WARNING - Sleep for 5.101610 seconds and try again... (tryings = 1324, bot id = 8399571083)
+2025-12-27 03:07:45,924 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:07:45,924 - aiogram.dispatcher - WARNING - Sleep for 4.758691 seconds and try again... (tryings = 1325, bot id = 8399571083)
+2025-12-27 03:08:11,759 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:08:11,759 - aiogram.dispatcher - WARNING - Sleep for 5.170430 seconds and try again... (tryings = 1326, bot id = 8399571083)
+2025-12-27 03:08:37,969 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:08:37,969 - aiogram.dispatcher - WARNING - Sleep for 4.917655 seconds and try again... (tryings = 1327, bot id = 8399571083)
+2025-12-27 03:09:03,939 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:09:03,940 - aiogram.dispatcher - WARNING - Sleep for 5.011802 seconds and try again... (tryings = 1328, bot id = 8399571083)
+2025-12-27 03:09:30,016 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:09:30,016 - aiogram.dispatcher - WARNING - Sleep for 4.938141 seconds and try again... (tryings = 1329, bot id = 8399571083)
+2025-12-27 03:09:56,014 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:09:56,014 - aiogram.dispatcher - WARNING - Sleep for 4.998955 seconds and try again... (tryings = 1330, bot id = 8399571083)
+2025-12-27 03:10:22,066 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:10:22,067 - aiogram.dispatcher - WARNING - Sleep for 5.138243 seconds and try again... (tryings = 1331, bot id = 8399571083)
+2025-12-27 03:10:48,266 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:10:48,266 - aiogram.dispatcher - WARNING - Sleep for 4.892162 seconds and try again... (tryings = 1332, bot id = 8399571083)
+2025-12-27 03:11:14,187 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:11:14,188 - aiogram.dispatcher - WARNING - Sleep for 5.003442 seconds and try again... (tryings = 1333, bot id = 8399571083)
+2025-12-27 03:11:40,241 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:11:40,241 - aiogram.dispatcher - WARNING - Sleep for 5.043030 seconds and try again... (tryings = 1334, bot id = 8399571083)
+2025-12-27 03:12:06,325 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:12:06,325 - aiogram.dispatcher - WARNING - Sleep for 5.035327 seconds and try again... (tryings = 1335, bot id = 8399571083)
+2025-12-27 03:12:32,393 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:12:32,393 - aiogram.dispatcher - WARNING - Sleep for 4.880205 seconds and try again... (tryings = 1336, bot id = 8399571083)
+2025-12-27 03:12:58,331 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:12:58,332 - aiogram.dispatcher - WARNING - Sleep for 4.836665 seconds and try again... (tryings = 1337, bot id = 8399571083)
+2025-12-27 03:13:24,219 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:13:24,219 - aiogram.dispatcher - WARNING - Sleep for 4.810271 seconds and try again... (tryings = 1338, bot id = 8399571083)
+2025-12-27 03:13:50,099 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:13:50,099 - aiogram.dispatcher - WARNING - Sleep for 5.084340 seconds and try again... (tryings = 1339, bot id = 8399571083)
+2025-12-27 03:14:16,256 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:14:16,256 - aiogram.dispatcher - WARNING - Sleep for 4.918044 seconds and try again... (tryings = 1340, bot id = 8399571083)
+2025-12-27 03:14:42,220 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:14:42,220 - aiogram.dispatcher - WARNING - Sleep for 5.021444 seconds and try again... (tryings = 1341, bot id = 8399571083)
+2025-12-27 03:15:08,294 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:15:08,295 - aiogram.dispatcher - WARNING - Sleep for 5.093942 seconds and try again... (tryings = 1342, bot id = 8399571083)
+2025-12-27 03:15:34,450 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:15:34,450 - aiogram.dispatcher - WARNING - Sleep for 4.969025 seconds and try again... (tryings = 1343, bot id = 8399571083)
+2025-12-27 03:16:00,477 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:16:00,477 - aiogram.dispatcher - WARNING - Sleep for 5.074797 seconds and try again... (tryings = 1344, bot id = 8399571083)
+2025-12-27 03:16:26,601 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:16:26,601 - aiogram.dispatcher - WARNING - Sleep for 5.025934 seconds and try again... (tryings = 1345, bot id = 8399571083)
+2025-12-27 03:16:52,698 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:16:52,699 - aiogram.dispatcher - WARNING - Sleep for 4.779234 seconds and try again... (tryings = 1346, bot id = 8399571083)
+2025-12-27 03:17:18,536 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:17:18,536 - aiogram.dispatcher - WARNING - Sleep for 5.157155 seconds and try again... (tryings = 1347, bot id = 8399571083)
+2025-12-27 03:17:44,739 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:17:44,739 - aiogram.dispatcher - WARNING - Sleep for 5.039369 seconds and try again... (tryings = 1348, bot id = 8399571083)
+2025-12-27 03:18:10,829 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:18:10,829 - aiogram.dispatcher - WARNING - Sleep for 5.018800 seconds and try again... (tryings = 1349, bot id = 8399571083)
+2025-12-27 03:18:36,889 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:18:36,889 - aiogram.dispatcher - WARNING - Sleep for 4.943039 seconds and try again... (tryings = 1350, bot id = 8399571083)
+2025-12-27 03:19:02,900 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:19:02,900 - aiogram.dispatcher - WARNING - Sleep for 4.975290 seconds and try again... (tryings = 1351, bot id = 8399571083)
+2025-12-27 03:19:28,911 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:19:28,911 - aiogram.dispatcher - WARNING - Sleep for 4.858091 seconds and try again... (tryings = 1352, bot id = 8399571083)
+2025-12-27 03:19:54,827 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:19:54,827 - aiogram.dispatcher - WARNING - Sleep for 4.835721 seconds and try again... (tryings = 1353, bot id = 8399571083)
+2025-12-27 03:20:20,716 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:20:20,716 - aiogram.dispatcher - WARNING - Sleep for 5.119923 seconds and try again... (tryings = 1354, bot id = 8399571083)
+2025-12-27 03:20:46,891 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:20:46,892 - aiogram.dispatcher - WARNING - Sleep for 5.175705 seconds and try again... (tryings = 1355, bot id = 8399571083)
+2025-12-27 03:21:13,125 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:21:13,125 - aiogram.dispatcher - WARNING - Sleep for 4.962931 seconds and try again... (tryings = 1356, bot id = 8399571083)
+2025-12-27 03:21:39,152 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:21:39,152 - aiogram.dispatcher - WARNING - Sleep for 4.949172 seconds and try again... (tryings = 1357, bot id = 8399571083)
+2025-12-27 03:22:05,170 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:22:05,170 - aiogram.dispatcher - WARNING - Sleep for 4.979123 seconds and try again... (tryings = 1358, bot id = 8399571083)
+2025-12-27 03:22:31,182 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:22:31,183 - aiogram.dispatcher - WARNING - Sleep for 4.937250 seconds and try again... (tryings = 1359, bot id = 8399571083)
+2025-12-27 03:22:57,179 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:22:57,179 - aiogram.dispatcher - WARNING - Sleep for 5.181821 seconds and try again... (tryings = 1360, bot id = 8399571083)
+2025-12-27 03:23:23,413 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:23:23,413 - aiogram.dispatcher - WARNING - Sleep for 4.936950 seconds and try again... (tryings = 1361, bot id = 8399571083)
+2025-12-27 03:23:49,409 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:23:49,409 - aiogram.dispatcher - WARNING - Sleep for 4.991333 seconds and try again... (tryings = 1362, bot id = 8399571083)
+2025-12-27 03:24:15,458 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:24:15,458 - aiogram.dispatcher - WARNING - Sleep for 4.924478 seconds and try again... (tryings = 1363, bot id = 8399571083)
+2025-12-27 03:24:41,452 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:24:41,452 - aiogram.dispatcher - WARNING - Sleep for 5.065689 seconds and try again... (tryings = 1364, bot id = 8399571083)
+2025-12-27 03:25:07,586 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:25:07,586 - aiogram.dispatcher - WARNING - Sleep for 5.072453 seconds and try again... (tryings = 1365, bot id = 8399571083)
+2025-12-27 03:25:33,702 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:25:33,702 - aiogram.dispatcher - WARNING - Sleep for 5.328766 seconds and try again... (tryings = 1366, bot id = 8399571083)
+2025-12-27 03:26:00,094 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:26:00,094 - aiogram.dispatcher - WARNING - Sleep for 5.146107 seconds and try again... (tryings = 1367, bot id = 8399571083)
+2025-12-27 03:26:26,305 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:26:26,305 - aiogram.dispatcher - WARNING - Sleep for 4.958743 seconds and try again... (tryings = 1368, bot id = 8399571083)
+2025-12-27 03:26:52,322 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:26:52,322 - aiogram.dispatcher - WARNING - Sleep for 5.043836 seconds and try again... (tryings = 1369, bot id = 8399571083)
+2025-12-27 03:27:18,417 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:27:18,417 - aiogram.dispatcher - WARNING - Sleep for 5.031435 seconds and try again... (tryings = 1370, bot id = 8399571083)
+2025-12-27 03:27:44,514 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:27:44,514 - aiogram.dispatcher - WARNING - Sleep for 5.076295 seconds and try again... (tryings = 1371, bot id = 8399571083)
+2025-12-27 03:28:10,636 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:28:10,636 - aiogram.dispatcher - WARNING - Sleep for 4.938583 seconds and try again... (tryings = 1372, bot id = 8399571083)
+2025-12-27 03:28:36,624 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:28:36,624 - aiogram.dispatcher - WARNING - Sleep for 4.817511 seconds and try again... (tryings = 1373, bot id = 8399571083)
+2025-12-27 03:29:02,501 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:29:02,501 - aiogram.dispatcher - WARNING - Sleep for 5.048606 seconds and try again... (tryings = 1374, bot id = 8399571083)
+2025-12-27 03:29:28,605 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:29:28,605 - aiogram.dispatcher - WARNING - Sleep for 5.094977 seconds and try again... (tryings = 1375, bot id = 8399571083)
+2025-12-27 03:29:55,127 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:29:55,127 - aiogram.dispatcher - WARNING - Sleep for 4.821130 seconds and try again... (tryings = 1376, bot id = 8399571083)
+2025-12-27 03:30:20,980 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:30:20,980 - aiogram.dispatcher - WARNING - Sleep for 5.004295 seconds and try again... (tryings = 1377, bot id = 8399571083)
+2025-12-27 03:30:47,033 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:30:47,033 - aiogram.dispatcher - WARNING - Sleep for 5.019099 seconds and try again... (tryings = 1378, bot id = 8399571083)
+2025-12-27 03:31:13,106 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:31:13,106 - aiogram.dispatcher - WARNING - Sleep for 5.045355 seconds and try again... (tryings = 1379, bot id = 8399571083)
+2025-12-27 03:31:39,219 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:31:39,220 - aiogram.dispatcher - WARNING - Sleep for 4.908628 seconds and try again... (tryings = 1380, bot id = 8399571083)
+2025-12-27 03:32:05,169 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:32:05,169 - aiogram.dispatcher - WARNING - Sleep for 5.158207 seconds and try again... (tryings = 1381, bot id = 8399571083)
+2025-12-27 03:32:31,384 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:32:31,384 - aiogram.dispatcher - WARNING - Sleep for 4.880326 seconds and try again... (tryings = 1382, bot id = 8399571083)
+2025-12-27 03:32:57,304 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:32:57,304 - aiogram.dispatcher - WARNING - Sleep for 5.102869 seconds and try again... (tryings = 1383, bot id = 8399571083)
+2025-12-27 03:33:23,454 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:33:23,455 - aiogram.dispatcher - WARNING - Sleep for 5.067362 seconds and try again... (tryings = 1384, bot id = 8399571083)
+2025-12-27 03:33:49,564 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:33:49,565 - aiogram.dispatcher - WARNING - Sleep for 5.206773 seconds and try again... (tryings = 1385, bot id = 8399571083)
+2025-12-27 03:34:15,825 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:34:15,825 - aiogram.dispatcher - WARNING - Sleep for 5.266846 seconds and try again... (tryings = 1386, bot id = 8399571083)
+2025-12-27 03:34:42,148 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:34:42,148 - aiogram.dispatcher - WARNING - Sleep for 5.061397 seconds and try again... (tryings = 1387, bot id = 8399571083)
+2025-12-27 03:35:08,262 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:35:08,262 - aiogram.dispatcher - WARNING - Sleep for 5.000250 seconds and try again... (tryings = 1388, bot id = 8399571083)
+2025-12-27 03:35:34,309 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:35:34,309 - aiogram.dispatcher - WARNING - Sleep for 5.020983 seconds and try again... (tryings = 1389, bot id = 8399571083)
+2025-12-27 03:36:00,388 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:36:00,388 - aiogram.dispatcher - WARNING - Sleep for 5.141449 seconds and try again... (tryings = 1390, bot id = 8399571083)
+2025-12-27 03:36:26,591 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:36:26,591 - aiogram.dispatcher - WARNING - Sleep for 5.082866 seconds and try again... (tryings = 1391, bot id = 8399571083)
+2025-12-27 03:36:52,713 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:36:52,713 - aiogram.dispatcher - WARNING - Sleep for 5.167732 seconds and try again... (tryings = 1392, bot id = 8399571083)
+2025-12-27 03:37:18,942 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:37:18,942 - aiogram.dispatcher - WARNING - Sleep for 4.764542 seconds and try again... (tryings = 1393, bot id = 8399571083)
+2025-12-27 03:37:44,764 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:37:44,764 - aiogram.dispatcher - WARNING - Sleep for 5.199449 seconds and try again... (tryings = 1394, bot id = 8399571083)
+2025-12-27 03:38:11,016 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:38:11,016 - aiogram.dispatcher - WARNING - Sleep for 5.065864 seconds and try again... (tryings = 1395, bot id = 8399571083)
+2025-12-27 03:38:37,136 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:38:37,137 - aiogram.dispatcher - WARNING - Sleep for 5.144980 seconds and try again... (tryings = 1396, bot id = 8399571083)
+2025-12-27 03:39:03,355 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:39:03,355 - aiogram.dispatcher - WARNING - Sleep for 5.120626 seconds and try again... (tryings = 1397, bot id = 8399571083)
+2025-12-27 03:39:29,535 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:39:29,535 - aiogram.dispatcher - WARNING - Sleep for 4.883480 seconds and try again... (tryings = 1398, bot id = 8399571083)
+2025-12-27 03:39:55,474 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:39:55,474 - aiogram.dispatcher - WARNING - Sleep for 4.778016 seconds and try again... (tryings = 1399, bot id = 8399571083)
+2025-12-27 03:40:21,305 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:40:21,306 - aiogram.dispatcher - WARNING - Sleep for 5.089134 seconds and try again... (tryings = 1400, bot id = 8399571083)
+2025-12-27 03:40:47,441 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:40:47,441 - aiogram.dispatcher - WARNING - Sleep for 4.874998 seconds and try again... (tryings = 1401, bot id = 8399571083)
+2025-12-27 03:41:13,362 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:41:13,362 - aiogram.dispatcher - WARNING - Sleep for 5.117787 seconds and try again... (tryings = 1402, bot id = 8399571083)
+2025-12-27 03:41:39,506 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:41:39,506 - aiogram.dispatcher - WARNING - Sleep for 5.026111 seconds and try again... (tryings = 1403, bot id = 8399571083)
+2025-12-27 03:42:05,563 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:42:05,563 - aiogram.dispatcher - WARNING - Sleep for 4.970442 seconds and try again... (tryings = 1404, bot id = 8399571083)
+2025-12-27 03:42:31,589 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:42:31,589 - aiogram.dispatcher - WARNING - Sleep for 4.966374 seconds and try again... (tryings = 1405, bot id = 8399571083)
+2025-12-27 03:42:57,616 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:42:57,616 - aiogram.dispatcher - WARNING - Sleep for 4.977115 seconds and try again... (tryings = 1406, bot id = 8399571083)
+2025-12-27 03:43:23,651 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:43:23,651 - aiogram.dispatcher - WARNING - Sleep for 5.016831 seconds and try again... (tryings = 1407, bot id = 8399571083)
+2025-12-27 03:43:49,731 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:43:49,731 - aiogram.dispatcher - WARNING - Sleep for 5.133517 seconds and try again... (tryings = 1408, bot id = 8399571083)
+2025-12-27 03:44:15,907 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:44:15,908 - aiogram.dispatcher - WARNING - Sleep for 5.032916 seconds and try again... (tryings = 1409, bot id = 8399571083)
+2025-12-27 03:44:41,993 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:44:41,993 - aiogram.dispatcher - WARNING - Sleep for 4.878648 seconds and try again... (tryings = 1410, bot id = 8399571083)
+2025-12-27 03:45:07,914 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:45:07,914 - aiogram.dispatcher - WARNING - Sleep for 5.042539 seconds and try again... (tryings = 1411, bot id = 8399571083)
+2025-12-27 03:45:34,009 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:45:34,009 - aiogram.dispatcher - WARNING - Sleep for 5.009417 seconds and try again... (tryings = 1412, bot id = 8399571083)
+2025-12-27 03:46:00,067 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:46:00,067 - aiogram.dispatcher - WARNING - Sleep for 5.041174 seconds and try again... (tryings = 1413, bot id = 8399571083)
+2025-12-27 03:46:26,154 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:46:26,154 - aiogram.dispatcher - WARNING - Sleep for 4.957766 seconds and try again... (tryings = 1414, bot id = 8399571083)
+2025-12-27 03:46:52,157 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:46:52,158 - aiogram.dispatcher - WARNING - Sleep for 5.044244 seconds and try again... (tryings = 1415, bot id = 8399571083)
+2025-12-27 03:47:18,235 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:47:18,235 - aiogram.dispatcher - WARNING - Sleep for 5.362371 seconds and try again... (tryings = 1416, bot id = 8399571083)
+2025-12-27 03:47:44,644 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:47:44,644 - aiogram.dispatcher - WARNING - Sleep for 4.967169 seconds and try again... (tryings = 1417, bot id = 8399571083)
+2025-12-27 03:48:10,647 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:48:10,648 - aiogram.dispatcher - WARNING - Sleep for 4.927476 seconds and try again... (tryings = 1418, bot id = 8399571083)
+2025-12-27 03:48:36,622 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:48:36,622 - aiogram.dispatcher - WARNING - Sleep for 4.922414 seconds and try again... (tryings = 1419, bot id = 8399571083)
+2025-12-27 03:49:02,596 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:49:02,596 - aiogram.dispatcher - WARNING - Sleep for 5.084228 seconds and try again... (tryings = 1420, bot id = 8399571083)
+2025-12-27 03:49:28,739 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:49:28,739 - aiogram.dispatcher - WARNING - Sleep for 5.028499 seconds and try again... (tryings = 1421, bot id = 8399571083)
+2025-12-27 03:49:54,837 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:49:54,837 - aiogram.dispatcher - WARNING - Sleep for 4.985660 seconds and try again... (tryings = 1422, bot id = 8399571083)
+2025-12-27 03:50:20,865 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:50:20,865 - aiogram.dispatcher - WARNING - Sleep for 5.049704 seconds and try again... (tryings = 1423, bot id = 8399571083)
+2025-12-27 03:50:46,951 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:50:46,951 - aiogram.dispatcher - WARNING - Sleep for 5.369652 seconds and try again... (tryings = 1424, bot id = 8399571083)
+2025-12-27 03:51:13,369 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:51:13,369 - aiogram.dispatcher - WARNING - Sleep for 5.070941 seconds and try again... (tryings = 1425, bot id = 8399571083)
+2025-12-27 03:51:39,494 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:51:39,494 - aiogram.dispatcher - WARNING - Sleep for 5.129063 seconds and try again... (tryings = 1426, bot id = 8399571083)
+2025-12-27 03:52:05,670 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:52:05,670 - aiogram.dispatcher - WARNING - Sleep for 4.862426 seconds and try again... (tryings = 1427, bot id = 8399571083)
+2025-12-27 03:52:31,591 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:52:31,591 - aiogram.dispatcher - WARNING - Sleep for 5.047405 seconds and try again... (tryings = 1428, bot id = 8399571083)
+2025-12-27 03:52:57,680 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:52:57,680 - aiogram.dispatcher - WARNING - Sleep for 5.048355 seconds and try again... (tryings = 1429, bot id = 8399571083)
+2025-12-27 03:53:23,787 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:53:23,787 - aiogram.dispatcher - WARNING - Sleep for 4.850960 seconds and try again... (tryings = 1430, bot id = 8399571083)
+2025-12-27 03:53:49,694 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:53:49,694 - aiogram.dispatcher - WARNING - Sleep for 4.998939 seconds and try again... (tryings = 1431, bot id = 8399571083)
+2025-12-27 03:54:15,735 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:54:15,735 - aiogram.dispatcher - WARNING - Sleep for 5.103554 seconds and try again... (tryings = 1432, bot id = 8399571083)
+2025-12-27 03:54:41,888 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:54:41,888 - aiogram.dispatcher - WARNING - Sleep for 4.797217 seconds and try again... (tryings = 1433, bot id = 8399571083)
+2025-12-27 03:55:07,710 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:55:07,710 - aiogram.dispatcher - WARNING - Sleep for 5.155478 seconds and try again... (tryings = 1434, bot id = 8399571083)
+2025-12-27 03:55:33,920 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:55:33,920 - aiogram.dispatcher - WARNING - Sleep for 4.907386 seconds and try again... (tryings = 1435, bot id = 8399571083)
+2025-12-27 03:55:59,880 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:55:59,881 - aiogram.dispatcher - WARNING - Sleep for 4.789176 seconds and try again... (tryings = 1436, bot id = 8399571083)
+2025-12-27 03:56:25,728 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:56:25,728 - aiogram.dispatcher - WARNING - Sleep for 4.899060 seconds and try again... (tryings = 1437, bot id = 8399571083)
+2025-12-27 03:56:51,681 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:56:51,681 - aiogram.dispatcher - WARNING - Sleep for 5.115239 seconds and try again... (tryings = 1438, bot id = 8399571083)
+2025-12-27 03:57:17,838 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:57:17,838 - aiogram.dispatcher - WARNING - Sleep for 5.015882 seconds and try again... (tryings = 1439, bot id = 8399571083)
+2025-12-27 03:57:43,909 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:57:43,909 - aiogram.dispatcher - WARNING - Sleep for 5.020561 seconds and try again... (tryings = 1440, bot id = 8399571083)
+2025-12-27 03:58:09,988 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:58:09,988 - aiogram.dispatcher - WARNING - Sleep for 4.953322 seconds and try again... (tryings = 1441, bot id = 8399571083)
+2025-12-27 03:58:36,007 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:58:36,007 - aiogram.dispatcher - WARNING - Sleep for 4.973125 seconds and try again... (tryings = 1442, bot id = 8399571083)
+2025-12-27 03:59:02,029 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:59:02,029 - aiogram.dispatcher - WARNING - Sleep for 5.036813 seconds and try again... (tryings = 1443, bot id = 8399571083)
+2025-12-27 03:59:28,128 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:59:28,128 - aiogram.dispatcher - WARNING - Sleep for 5.123906 seconds and try again... (tryings = 1444, bot id = 8399571083)
+2025-12-27 03:59:54,305 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 03:59:54,306 - aiogram.dispatcher - WARNING - Sleep for 4.937980 seconds and try again... (tryings = 1445, bot id = 8399571083)
+2025-12-27 04:00:20,312 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:00:20,312 - aiogram.dispatcher - WARNING - Sleep for 5.207041 seconds and try again... (tryings = 1446, bot id = 8399571083)
+2025-12-27 04:00:46,575 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:00:46,575 - aiogram.dispatcher - WARNING - Sleep for 5.075053 seconds and try again... (tryings = 1447, bot id = 8399571083)
+2025-12-27 04:01:12,697 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:01:12,698 - aiogram.dispatcher - WARNING - Sleep for 5.004065 seconds and try again... (tryings = 1448, bot id = 8399571083)
+2025-12-27 04:01:38,755 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:01:38,755 - aiogram.dispatcher - WARNING - Sleep for 5.027363 seconds and try again... (tryings = 1449, bot id = 8399571083)
+2025-12-27 04:02:04,845 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:02:04,845 - aiogram.dispatcher - WARNING - Sleep for 5.072557 seconds and try again... (tryings = 1450, bot id = 8399571083)
+2025-12-27 04:02:30,962 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:02:30,962 - aiogram.dispatcher - WARNING - Sleep for 4.947871 seconds and try again... (tryings = 1451, bot id = 8399571083)
+2025-12-27 04:02:56,964 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:02:56,964 - aiogram.dispatcher - WARNING - Sleep for 4.755869 seconds and try again... (tryings = 1452, bot id = 8399571083)
+2025-12-27 04:03:22,766 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:03:22,766 - aiogram.dispatcher - WARNING - Sleep for 5.115935 seconds and try again... (tryings = 1453, bot id = 8399571083)
+2025-12-27 04:03:48,941 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:03:48,941 - aiogram.dispatcher - WARNING - Sleep for 4.957729 seconds and try again... (tryings = 1454, bot id = 8399571083)
+2025-12-27 04:04:14,935 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:04:14,935 - aiogram.dispatcher - WARNING - Sleep for 4.814467 seconds and try again... (tryings = 1455, bot id = 8399571083)
+2025-12-27 04:04:40,784 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:04:40,784 - aiogram.dispatcher - WARNING - Sleep for 5.115163 seconds and try again... (tryings = 1456, bot id = 8399571083)
+2025-12-27 04:05:06,947 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:05:06,947 - aiogram.dispatcher - WARNING - Sleep for 5.115245 seconds and try again... (tryings = 1457, bot id = 8399571083)
+2025-12-27 04:05:33,125 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:05:33,125 - aiogram.dispatcher - WARNING - Sleep for 4.970428 seconds and try again... (tryings = 1458, bot id = 8399571083)
+2025-12-27 04:05:59,138 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:05:59,138 - aiogram.dispatcher - WARNING - Sleep for 5.020442 seconds and try again... (tryings = 1459, bot id = 8399571083)
+2025-12-27 04:06:25,216 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:06:25,216 - aiogram.dispatcher - WARNING - Sleep for 4.881579 seconds and try again... (tryings = 1460, bot id = 8399571083)
+2025-12-27 04:06:51,123 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:06:51,123 - aiogram.dispatcher - WARNING - Sleep for 4.958333 seconds and try again... (tryings = 1461, bot id = 8399571083)
+2025-12-27 04:07:17,138 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:07:17,138 - aiogram.dispatcher - WARNING - Sleep for 4.925930 seconds and try again... (tryings = 1462, bot id = 8399571083)
+2025-12-27 04:07:43,119 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:07:43,119 - aiogram.dispatcher - WARNING - Sleep for 4.961294 seconds and try again... (tryings = 1463, bot id = 8399571083)
+2025-12-27 04:08:09,134 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:08:09,134 - aiogram.dispatcher - WARNING - Sleep for 4.827468 seconds and try again... (tryings = 1464, bot id = 8399571083)
+2025-12-27 04:08:35,022 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:08:35,022 - aiogram.dispatcher - WARNING - Sleep for 4.904217 seconds and try again... (tryings = 1465, bot id = 8399571083)
+2025-12-27 04:09:00,982 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:09:00,982 - aiogram.dispatcher - WARNING - Sleep for 5.035191 seconds and try again... (tryings = 1466, bot id = 8399571083)
+2025-12-27 04:09:27,076 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:09:27,076 - aiogram.dispatcher - WARNING - Sleep for 4.942757 seconds and try again... (tryings = 1467, bot id = 8399571083)
+2025-12-27 04:09:53,064 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:09:53,064 - aiogram.dispatcher - WARNING - Sleep for 4.981923 seconds and try again... (tryings = 1468, bot id = 8399571083)
+2025-12-27 04:10:19,090 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:10:19,090 - aiogram.dispatcher - WARNING - Sleep for 4.985894 seconds and try again... (tryings = 1469, bot id = 8399571083)
+2025-12-27 04:10:45,124 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:10:45,124 - aiogram.dispatcher - WARNING - Sleep for 4.972892 seconds and try again... (tryings = 1470, bot id = 8399571083)
+2025-12-27 04:11:11,148 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:11:11,148 - aiogram.dispatcher - WARNING - Sleep for 5.003583 seconds and try again... (tryings = 1471, bot id = 8399571083)
+2025-12-27 04:11:37,211 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:11:37,211 - aiogram.dispatcher - WARNING - Sleep for 5.180652 seconds and try again... (tryings = 1472, bot id = 8399571083)
+2025-12-27 04:12:03,439 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:12:03,439 - aiogram.dispatcher - WARNING - Sleep for 5.047991 seconds and try again... (tryings = 1473, bot id = 8399571083)
+2025-12-27 04:12:29,541 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:12:29,541 - aiogram.dispatcher - WARNING - Sleep for 4.873414 seconds and try again... (tryings = 1474, bot id = 8399571083)
+2025-12-27 04:12:55,456 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:12:55,456 - aiogram.dispatcher - WARNING - Sleep for 4.982700 seconds and try again... (tryings = 1475, bot id = 8399571083)
+2025-12-27 04:13:21,482 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:13:21,482 - aiogram.dispatcher - WARNING - Sleep for 5.212644 seconds and try again... (tryings = 1476, bot id = 8399571083)
+2025-12-27 04:13:47,737 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:13:47,737 - aiogram.dispatcher - WARNING - Sleep for 4.834003 seconds and try again... (tryings = 1477, bot id = 8399571083)
+2025-12-27 04:14:13,630 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:14:13,630 - aiogram.dispatcher - WARNING - Sleep for 5.135578 seconds and try again... (tryings = 1478, bot id = 8399571083)
+2025-12-27 04:14:39,809 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:14:39,809 - aiogram.dispatcher - WARNING - Sleep for 5.060273 seconds and try again... (tryings = 1479, bot id = 8399571083)
+2025-12-27 04:15:05,917 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:15:05,917 - aiogram.dispatcher - WARNING - Sleep for 5.133860 seconds and try again... (tryings = 1480, bot id = 8399571083)
+2025-12-27 04:15:32,102 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:15:32,102 - aiogram.dispatcher - WARNING - Sleep for 5.026489 seconds and try again... (tryings = 1481, bot id = 8399571083)
+2025-12-27 04:15:58,187 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:15:58,187 - aiogram.dispatcher - WARNING - Sleep for 5.078142 seconds and try again... (tryings = 1482, bot id = 8399571083)
+2025-12-27 04:16:24,327 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:16:24,327 - aiogram.dispatcher - WARNING - Sleep for 4.930406 seconds and try again... (tryings = 1483, bot id = 8399571083)
+2025-12-27 04:16:50,299 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:16:50,299 - aiogram.dispatcher - WARNING - Sleep for 5.042637 seconds and try again... (tryings = 1484, bot id = 8399571083)
+2025-12-27 04:17:16,380 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:17:16,380 - aiogram.dispatcher - WARNING - Sleep for 4.846230 seconds and try again... (tryings = 1485, bot id = 8399571083)
+2025-12-27 04:17:42,264 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:17:42,264 - aiogram.dispatcher - WARNING - Sleep for 5.012545 seconds and try again... (tryings = 1486, bot id = 8399571083)
+2025-12-27 04:18:08,338 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:18:08,338 - aiogram.dispatcher - WARNING - Sleep for 5.023796 seconds and try again... (tryings = 1487, bot id = 8399571083)
+2025-12-27 04:18:34,426 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:18:34,426 - aiogram.dispatcher - WARNING - Sleep for 4.951917 seconds and try again... (tryings = 1488, bot id = 8399571083)
+2025-12-27 04:19:00,425 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:19:00,425 - aiogram.dispatcher - WARNING - Sleep for 5.050520 seconds and try again... (tryings = 1489, bot id = 8399571083)
+2025-12-27 04:19:26,515 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:19:26,515 - aiogram.dispatcher - WARNING - Sleep for 5.020760 seconds and try again... (tryings = 1490, bot id = 8399571083)
+2025-12-27 04:19:52,589 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2025-12-27 04:19:52,589 - aiogram.dispatcher - WARNING - Sleep for 4.985122 seconds and try again... (tryings = 1491, bot id = 8399571083)
+2025-12-27 14:32:24,371 - __main__ - INFO - База данных создана
+2025-12-27 14:38:22,517 - __main__ - INFO - База данных создана
+2025-12-27 14:44:55,472 - __main__ - INFO - База данных создана
+2025-12-27 14:50:42,925 - __main__ - INFO - База данных создана
+2025-12-27 15:00:01,769 - __main__ - INFO - База данных создана
+2025-12-27 15:04:13,360 - __main__ - INFO - База данных создана
+2025-12-27 15:07:11,671 - __main__ - INFO - База данных создана
+2025-12-27 15:17:11,608 - __main__ - INFO - База данных создана
+2025-12-27 15:19:02,349 - __main__ - INFO - База данных создана
