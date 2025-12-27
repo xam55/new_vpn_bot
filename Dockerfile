@@ -1,25 +1,24 @@
 FROM python:3.11-slim
 
+ENV PYTHONUNBUFFERED=1
 WORKDIR /app
 
-# Устанавливаем системные зависимости
+# Системные зависимости
 RUN apt-get update && apt-get install -y \
     openssh-client \
-    git \
     curl \
     gcc \
-    postgresql-client \
     && rm -rf /var/lib/apt/lists/*
 
-# Копируем зависимости
+# Зависимости Python
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Копируем код
+# Код
 COPY . .
 
-# Создаем необходимые папки
-RUN mkdir -p /app/data /app/logs /app/static
+# Папки
+RUN mkdir -p /app/data/database /app/logs /app/static
 
-# Запускаем бота
-CMD ["python", "src/main.py"]
+# Запуск
+CMD ["python", "run.py"]

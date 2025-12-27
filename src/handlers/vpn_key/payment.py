@@ -177,11 +177,3 @@ async def cancel_payment_process(callback: CallbackQuery, state: FSMContext):
     )
     await callback.answer("Оплата отменена")
 
-# Админские обработчики - временно отключим, если нет админской панели
-# @router.callback_query(F.data.startswith("confirm_payment_"))
-# async def admin_confirm_payment(callback: CallbackQuery):
-#     ...
-
-# @router.callback_query(F.data.startswith("reject_payment_"))
-# async def admin_reject_payment(callback: CallbackQuery):
-#     ...

@@ -1,5 +1,25 @@
-.env.example
+# Env
 .env
-./venv
-.venv
-.idea
+.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Database
+data/database/*.db
+
+# Docker
+*.pid
